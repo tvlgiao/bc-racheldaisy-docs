@@ -71,6 +71,29 @@ To customize colors of the header section, look into the options showing below i
 
 
 
+## Mega Menu
+
+![Mega Menu](img/home1-megamenu.png)
+
+Images or labels appear on the mega menu can be edited in the language file `en.json`:
+
+![Edit language for mega menu](img/edit-language-megamenu.png)
+
+For example if the current menu __Shop By__ has category ID = `23`.
+
+- `"show_cat_image_23": "yes"`: specify an image will show on this menu.
+- `cat_image_23`: is the image URL.
+
+If you want to show a label beside a menu items like above image, for example the menu item __Season__ has category ID = `28`:
+
+- `"show_item_label_28": "yes"`: specify a label will show beside this menu item.
+- `"item_label_28"`: is the label text.
+
+You can add more for other items as you want.
+
+
+
+
 
 ## Main Slideshow / Carousel
 
@@ -113,6 +136,8 @@ To edit content and images of 3 banners, edit the language file `en.json` as sho
 If you don't want to show any elements of a banner, for example the button, leave the value __a single space__ character. Example: `"button": " "`.
 
 
+
+
 ## New / Featured / Popular Products
 
 The theme supports 3 layout type of New Products, Featured Products and Popular Products blocks:
@@ -123,11 +148,11 @@ __Grid__:
 
 __List__:
 
-![Products Grid](img/home1-products-list.jpg)
+![Products List](img/home1-products-list.jpg)
 
 __Carousel__:
 
-![Products Grid](img/home1-products-carousel.jpg)
+![Products Carousel](img/home1-products-carousel.jpg)
 
 
 ### Configure a Layout Type of products block & Number of Products to show up
@@ -160,8 +185,59 @@ To change the heading text (New Products, Featured Products, Most Popular Produc
 
 ![Edit language new products heading text](img/edit-language-products-new.png)
 
+### Change background of featured products block
+
+![Products Carousel](img/home1-products-carousel.jpg)
+
+#### Method 1: 
+
+To replace this background with our own image, in [Edit Theme Files](quickstart.md#edit-template-files) you can overwrite image file `assets/img/categories-featured-bg.jpg` with your own.
+
+#### Method 2:
+
+To completely remove it, add the CSS code below to `assets/scss/_theme-custom.scss`:
+
+```css
+.emthemesModez-productsVerticalCategoriesAside-outer--1 {
+  background-image: none;
+}
+```
 
 
+### Show products grid with first product show bigger
+
+In theme style LaParis III, the homepage shows new products like below:
+
+![Home 3 - New Products](img/home3-new-products.jpg)
+
+This can be accomplished by the code in homepage template file `templates/components/emthemes-modez/home/laparis3.html`:
+
+```
+{{> components/emthemes-modez/sections/section section="new_products" style="laparis1"}}
+```
+
+Note the difference is `style="laparis1"`.
+
+
+
+### Show products carousel fullwidth and having subheading
+
+In theme style LaParis IV, the homepage shows featured products like below:
+
+![Home 4 - products carousel](img/home4-products-carousel.jpg)
+
+This can be accomplished by the code in homepage template file `templates/components/emthemes-modez/home/laparis4.html`:
+
+```
+{{> components/emthemes-modez/sections/section section="featured_products" style="laparis4" show_subheading=true}}
+```
+
+- `style="laparis4"` indicates that products carousel should show full width.
+- `show_subheading=true` indicates that the products block should have subheading.
+
+Subheading can be edited in the language file `en.json`:
+
+![Edit language file for subheading](img/edit-language-subheading.png)
 
 
 
@@ -338,6 +414,152 @@ You can change the heading text of each column in the language files, find and e
 
 
 
+## LaParis III - First Banner Group
+
+![Home 3 - Banner group 1](img/home3-banner1.jpg)
+
+To edit 2 banner, edit the language file `en.json`:
+
+![Edit language for banner LaParis 2](img/edit-language-banner-laparis2.png)
+
+Group `laparis2_1` is coresponding to the block:
+
+```
+{{> components/emthemes-modez/sections/section section="banner_laparis2_1"}}
+```
+
+In the homepage template file `templates/components/emthemes-modez/home/laparis3.html`.
+
+You can add up to 3 of this banner group.
+
+
+
+
+
+## LaParis III - Second Banner Group
+
+![Home 3 - Banner group 2](img/home3-banner2.jpg)
+
+To edit 3 banner, edit the language file `en.json`:
+
+![Edit language for banner LaParis 3](img/edit-language-banner-laparis3.png)
+
+Group `laparis3_1` is coresponding to the block:
+
+```
+{{> components/emthemes-modez/sections/section section="banner_laparis3_1"}}
+```
+
+In the homepage template file `templates/components/emthemes-modez/home/laparis3.html`.
+
+You can add up to 3 of this banner group.
+
+
+
+
+
+
+## LaParis III - Third Banner Group
+
+![Home 3 - Banner group 3](img/home3-banner3.jpg)
+
+To edit this banner, edit the language file `en.json`:
+
+![Edit language for banner LaParis 4](img/edit-language-banner-laparis4.png)
+
+Group `laparis4_1` is coresponding to the block:
+
+```
+{{> components/emthemes-modez/sections/section section="banner_laparis4_1"}}
+```
+
+In the homepage template file `templates/components/emthemes-modez/home/laparis3.html`.
+
+You can add up to 3 of this banner group.
+
+
+
+
+## LaParis IV - Introduction Text
+
+In theme style LaParis IV:
+
+![Home 4 - Intro text](img/home4-intro-text.png)
+
+This text block can be edited in in the language file `en.json` as showing below:
+
+![Edit language for text block](img/edit-language-textblock.png)
+
+You can find the code output this block in homepage template file `templates/components/emthemes-modez/home/laparis4.html`:
+
+```
+{{> components/emthemes-modez/sections/section section="text_1"}}
+```
+
+You can add up to 3 instance of this block:
+
+```
+{{> components/emthemes-modez/sections/section section="text_1"}}
+{{> components/emthemes-modez/sections/section section="text_2"}}
+{{> components/emthemes-modez/sections/section section="text_3"}}
+```
+
+Coresponding to 3 groups in the language file: `text_1`, `text_2` and `text_3`.
+
+
+
+
+## LaParis IV - 5 Banner Groups
+
+![Home 4 - Banner 1](img/home4-banner1.jpg)
+![Home 4 - Banner 2](img/home4-banner2.jpg)
+![Home 4 - Banner 3](img/home4-banner3.jpg)
+![Home 4 - Banner 4](img/home4-banner4.jpg)
+![Home 4 - Banner 5](img/home4-banner5.jpg)
+
+5 banner groups can be edited in the language file `en.json` as showing below:
+
+![Edit language for banner LaParis 5](img/edit-language-banner-laparis5.png)
+
+
+`laparis5_1` to `laparis5_5` corresponding to first banner group to 5th banner group.
+
+You can find the code output these banner groups in the homepage template file `templates/components/emthemes-modez/home/laparis4.html`:
+
+```
+{{> components/emthemes-modez/sections/section section="banner_laparis5_1"}}
+{{> components/emthemes-modez/sections/section section="banner_laparis5_2"}}
+{{> components/emthemes-modez/sections/section section="banner_laparis5_3" style="alt"}}
+{{> components/emthemes-modez/sections/section section="banner_laparis5_4"}}
+...
+{{> components/emthemes-modez/sections/section section="banner_laparis5_5"}}
+```
+
+`style="alt"` indicates 3rd banner group has different sttyle (the first banner has text align right).
+
+
+
+
+## LaParis IV - Video Block
+
+Video block showing on homapge of theme style LaParis IV:
+
+![Home 4 - Video Block](img/home4-videoblock.jpg)
+
+This block can be edited in in the language file `en.json` as showing below:
+
+![Edit language for video block](img/edit-language-videoblock.png)
+
+You can find the code output this block in homepage template file `templates/components/emthemes-modez/home/laparis4.html`:
+
+```
+{{> components/emthemes-modez/sections/section section="video_1"}}
+```
+
+
+
+
+
 
 
 
@@ -417,6 +639,72 @@ To edit links in the copyright section at footer, edit the language file, find `
 ![Theme editor credit links](img/theme-editor-credits.png)
 
 To show/hide the credit links, go to Theme Editor > __Footer__ section, tick or untick the checkboxes as showing above.
+
+
+
+## Assign different product layout to a specific product page
+
+Theme has 2 product layouts: __default__ and __Fullwith with Lightbox__.
+
+Product layout fullwidth:
+
+![Product layout fullwidth](img/product-layout-fullwidth.jpg)
+
+To assign a product layout, edit your product in the admin panel. In tab __Order Details__, choose __Template Layout File__ with the layout out want:
+
+![Assign product layout](img/assign-product-layout.png)
+
+
+
+
+
+## Assign different category layout to a specific category page
+
+Theme has 2 category layout: __default__ and __Fullwidth__.
+
+Category layout fullwidth:
+
+![Category layout fullwidth](img/category-layout-fullwidth.jpg)
+
+To assign a category layout, edit your category in the admin panel. Choose __Template Layout File__ with the layout out want:
+
+![Assign category layout](img/assign-category-layout.png)
+
+
+
+## Show custom product labels
+
+![Product labels](img/product-labels.jpg)
+
+Turn on displaying product labels in the __Theme Editor__ > __Products__ section, tick on the checkbox __Show custom label using custom field 'card_label'__ and choose __Display Product Sale Badges__ as __Top Left__.
+
+![Theme editor products options](img/theme-editor-products-show-options.png)
+
+![Theme editor product sale badges](img/theme-editor-product-sale-badges.png)
+
+Edit your product in the admin panel to add custom label:
+
+![Edit product custom fields](img/edit-product-custom-fields.png)
+
+Add a custom label named `card_label` and enter label text in the value input box.
+
+
+
+
+
+## Show color swatches on product card:
+
+![Color swatches on product card](img/product-card-color-swatches.png)
+
+To display color watches on product card, open __Theme Editor__ > __Products__ section, tick on the checkbox __Show color swatches using custom field 'card_color'__.
+
+![Theme editor products options](img/theme-editor-products-show-options.png)
+
+Edit your product in the admin panel to add custom label:
+
+![Edit product custom fields](img/edit-product-custom-fields.png)
+
+Add a custom label named `card_color` and enter color hex code in the value input box seperator by commas.
 
 
 
