@@ -1,6 +1,6 @@
-# User Guide - BigCommerce Theme SarahStore
+# User Guide - BigCommerce Theme ParallaxBag
 
-Theme Version: 1.0.6 (2017-04-21)
+Theme Version: 1.0.0 (2017-07-07)
 
 Theme designed and developed by [papathemes](https://papathemes.com). Contact for support via email <tvlgiao@gmail.com>.
 
