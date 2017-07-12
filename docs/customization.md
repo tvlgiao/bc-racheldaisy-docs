@@ -75,6 +75,102 @@ If you want to show a label beside a menu items like above image, for example th
 
 You can add more for other items as you want.
 
+### Dropdown Mega Menu 1
+
+![Dropdown mega menu 1](img/home1-megamenu1.jpg)
+
+To display this mega menu when hover a category menu item, edit the language file `lang/en.json`, in section `emthemesmodez` > `megamenu`, you will see `"menu_cat_0": "2"`.
+
+- `menu_cat_0` mean the first category item (start from 0).
+- `2` is the identifier number of this dropdown menu.
+
+For example if you want the third category item show this dropdown menu style, input `"menu_cat_2": "2"`.
+
+To edit content inside this dropdown menu, you can edit template file `/templates/components/common/navigation-list-mega2.html`
+
+Edit banner images on this dropdown menu here:
+
+![Edit banner images of mega menu 2](img/edit-template-file-mega2-banners.png)
+
+
+
+### Dropdown Mega Menu 2
+
+![Dropdown mega menu 2](img/home1-megamenu2.jpg)
+
+To display this mega menu when hover a category menu item, edit the language file `lang/en.json`, in section `emthemesmodez` > `megamenu`, you will see `"menu_cat_1": "3"`.
+
+- `menu_cat_1` mean the second category item (start from 0).
+- `3` is the identifier number of this dropdown menu.
+- `mega_page_X`: mean the Xth page item (start from 0).
+
+For example if you want the third category item show this dropdown menu style, input `"menu_cat_2": "3"`.
+
+To edit content inside this dropdown menu, you can edit template file `/templates/components/common/navigation-list-mega3.html`
+
+Edit banner images on this dropdown menu here:
+
+![Edit banner images of mega menu 3](img/edit-template-file-mega3-banners.png)
+
+
+
+### Dropdown Mega Menu 3
+
+![Dropdown mega menu 3](img/home1-megamenu3.jpg)
+
+To display this mega menu when hover a category menu item, edit the language file `lang/en.json`, in section `emthemesmodez` > `megamenu`, you will see `"menu_cat_2": "4"`.
+
+- `menu_cat_2` mean the third category item (start from 0).
+- `4` is the identifier number of this dropdown menu.
+- `mega_page_X`: mean the Xth page item (start from 0).
+
+For example if you want the third category item show this dropdown menu style, input `"menu_cat_2": "4"`.
+
+To edit content inside this dropdown menu, you can edit template file `/templates/components/common/navigation-list-mega4.html`
+
+Edit banner images and static text on this dropdown menu here:
+
+![Edit banner images of mega menu 4](img/edit-template-file-mega4-banners.png)
+
+
+
+### Dropdown Mega Menu 4
+
+![Dropdown mega menu 4](img/home1-megamenu4.jpg)
+
+To display this mega menu when hover a category menu item, edit the language file `lang/en.json`, in section `emthemesmodez` > `megamenu`, you will see `"menu_cat_3": "5"`.
+
+- `menu_cat_3` mean the fourth category item (start from 0).
+- `5` is the identifier number of this dropdown menu.
+- `mega_page_X`: mean the Xth page item (start from 0).
+
+For example if you want the third category item show this dropdown menu style, input `"menu_cat_2": "5"`.
+
+To edit content inside this dropdown menu, you can edit template file `/templates/components/common/navigation-list-mega5.html`
+
+Edit banner images on this dropdown menu here:
+
+![Edit banner images of mega menu 5](img/edit-template-file-mega5-banners.png)
+
+Replace the image URL `https://tvlgiao.github.io/bigcommerce-themes/parallaxbag/demo/images/banner-menu-jewelry{{@index}}.jpg` by your own but keep `{{@index}}` to be replaced by index numbers (start from `0`).
+
+
+
+### Default Dropdown Mega Menu
+
+![Dropdown mega menu](img/home1-megamenu-default.jpg)
+
+To display the default style mega menu when hover a category menu item, edit the language file `lang/en.json`, in section `emthemesmodez` > `megamenu`, you will see `"menu_cat_4": " "`.
+
+- `menu_cat_4` mean the fifth category item (start from 0). Leave a space character between the double quote to set default style dropdown menu.
+- `mega_page_X`: mean the Xth page item (start from 0).
+
+For example if you want the third category item show default style dropdown menu, input `"menu_cat_2": " "`.
+
+
+
+
+
 
 
 
