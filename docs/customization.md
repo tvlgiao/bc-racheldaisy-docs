@@ -500,6 +500,18 @@ Edit your product in the admin panel to add custom label:
 Add a custom label named `card_color` and enter color hex code in the value input box seperator by commas.
 
 
+## Show Size guide / Color guide on product attributes
+
+![Size guide](img/size-guide.png)
+
+To display size guide, color guide for any similar link beside product attribute, edit product and add custom fields like below:
+
+![add custom fields for size guide](img/custom-fields-for-size-guide.png)
+
+Create a web page for guide:
+
+![size guide web page](img/size-guide-web-page.png)
+
 
 
 ## Mix contents from other theme styles
