@@ -216,6 +216,17 @@ You can edit heading text, sub heading, images, links, text on images in the lan
 
 ![Edit language file for what special banners](img/edit-language-what-special.png)
 
+To remove the brush image, you can add this custom code in **Storefront** > **Footer Script**:
+
+```html
+<style>
+.parallabag-whatSpecialSection {
+    background: none;
+}
+</style>
+```
+
+
 
 
 
@@ -275,6 +286,19 @@ You can edit text of this block in the language file `lang/en.json`, find key `p
 
 ![Edit language for free shipping return](img/edit-language-free-shipping-return.png)
 
+To remove the yellow background image, you can add this custom code in Storefront > Footer Script:
+
+```html
+<style>
+.emthemesModez-section--parallaxbag-freeShippingReturn {
+    background-image: none;
+}
+</style>
+```
+
+Or if you want to replace your your own image, upload your image in Image Manager and copy its URL.
+
+Edit the background code to: `background-image: url('/path/to/your/image');`
 
 
 
@@ -511,6 +535,37 @@ To display size guide, color guide for any similar link beside product attribute
 Create a web page for guide:
 
 ![size guide web page](img/size-guide-web-page.png)
+
+
+## Show Fullscreen popup banner
+
+![Fullscreen popup banner](img/home1-fullscreen-banner.jpg)
+
+To show this fullscreen popup banner on homepage, Go to Marketing > Banners > Create a banner.
+
+In Banner Content, click on button HTML button (Edit HTML source) and input content below:
+
+```html
+<div id="emthemesModezBannersBlockFullscreenBanner" class="emthemesModez-bannersContainer emthemesModez-bannersContainer--fullscreen tada animatecss" data-emthemesmodez-fullscreen-modal="" data-emthemesmodez-fullscreen-modal-delay="5000">
+<div class="emthemesModez-banner">
+<div class="emthemesModez-banner-figure"><a href="https://store-fcn1lgnyqp.mybigcommerce.com/shoes/"><img class="emthemesModez-banner-image" title="Fullscreen Banner" src="https://tvlgiao.github.io/bigcommerce-themes/parallaxbag/demo/images/banner19.jpg" alt="Fullscreen Banner" /></a>
+<div class="emthemesModez-banner-figcaption">
+<div class="emthemesModez-banner-figcaption-body">
+<h4 class="emthemesModez-banner-figcaption-title">Bag Store</h4>
+<div class="emthemesModez-banner-figcaption-text">UP TO <span class="alt" style="color: red;">50%</span> OFF</div>
+<a class="button button--primary emthemesModez-banner-figcaption-button" href="https://store-fcn1lgnyqp.mybigcommerce.com/shoes/">Shop Now</a></div>
+</div>
+</div>
+</div>
+</div>
+```
+
+![Edit fullscreen popup banner](img/edit-fullscreen-popup-banner.jpg)
+
+- Choose **Show on Page** = `Home Page`.
+- Choose **Location** = `Bottom of Page`.
+- Tick on **Visible** = `Yes`.
+
 
 
 
