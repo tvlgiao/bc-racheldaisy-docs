@@ -567,6 +567,21 @@ In Banner Content, click on button HTML button (Edit HTML source) and input cont
 - Tick on **Visible** = `Yes`.
 
 
+## Banner Sizes
+
+### Homepage 1
+
+![home1 banner sizes](img/home1-banner-sizes.png)
+
+### Homepage 2
+
+![home2 banner sizes](img/home2-banner-sizes.png)
+
+### Homepage 3
+
+![home3 banner sizes](img/home3-banner-sizes.png)
+
+
 
 
 ## Mix contents from other theme styles
