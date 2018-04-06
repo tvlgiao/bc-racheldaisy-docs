@@ -1,6 +1,6 @@
-site_name: "BigCommerce Theme ParallaxBag - User Guide"
-site_url: http://bc-parallaxbag-docs.papathemes.com/
-google_analytics: ['UA-241859-16', 'bc-parallaxbag-docs.papathemes.com']
+site_name: "BigCommerce Theme Rachel Daisy - User Guide"
+site_url: http://racheldaisy-default-demo.mybigcommerce.com/s
+google_analytics: ['UA-241859-16', 'bc-racheldaisy-docs.papathemes.com']
 copyright: '<a href="https://papathemes.com/bigcommerce-themes/">BigCommerce Themes</a> by <a href="https://papathemes.com">Papathemes</a>'
 pages:
 - Home: index.md

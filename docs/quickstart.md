@@ -60,7 +60,7 @@ To activate a theme style, open Theme Editor, find __Styles__ section, click on 
 ![Theme editor style](img/theme-editor-style.jpg)
 
 
-Theme includes 2 styles:
+Theme includes 1 styles:
 
 ### Default
 

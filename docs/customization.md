@@ -27,6 +27,28 @@ Look into the options showing below:
 ![Theme editor top banner](img/theme-editor-top-banner.png)
 
 
+## HotLine in Top Banner
+![HotLine](img/hotline.png)
+
+You can change the hotline text in this html file 
+
+`..\templates\components\common\header.html`
+
+
+![Edit hotline lang](img/hotline-lang.png)
+
+
+## Links in Top Banner
+
+![Links in top banner](img/top-link.png)
+
+You can change the text links in this html file:
+
+`..\templates\components\common\header-toplinks-right.html`
+
+![Edit top links lang](img/top-link-lang.png)
+
+
 
 ## Header
 
@@ -179,7 +201,7 @@ For example if you want the third category item show default style dropdown menu
 
 ### Edit the slideshow
 
-Edit the slideshow in admin page > __Storefront Design__ > __Design Options__:
+Edit the slideshow in admin page > __Storefront Design__ > __Home Page Carousel__:
 
 ![Edit homepage carousel](img/edit-homepage-carousel.png)
 
@@ -208,233 +230,147 @@ To hide the slideshow on homepage, uncheck on the checkbox __Show Carousel__ in 
 
 
 
-## What's Special Banners
+## Home - New Product Block
 
-![What's special banners](img/home1-what-special.jpg)
-
-You can edit heading text, sub heading, images, links, text on images in the language file `lang/en.json` in the File Editor, find section `parallaxbag` > `what_special`:
-
-![Edit language file for what special banners](img/edit-language-what-special.png)
-
-To remove the brush image, you can add this custom code in **Storefront** > **Footer Script**:
-
-```html
-<style>
-.parallabag-whatSpecialSection {
-    background: none;
-}
-</style>
-```
-
-
-
-
-
-
-
-
-## Keep In Touch (Newsletter)
-
-![Keep in touch section](img/home1-keep-in-touch.png)
-
-Make sure you tick on the option "__Allow Newsletter Subscription__" in admin page > __Marketing__ > __Email Marketing__:
-
-![Enable newsletter subscription](img/enable-newsletter-subscription.png)
-
-Edit text and description in the language file `lang/en.json`. Find key `newsletter`:
-
-![Edit language for newsletter text](img/edit-language-newsletter.png)
-
-
-
-
-## Some Features Block
-
-![Some Features Block](img/home1-some-features.jpg)
-
-You can edit background image, text, buttons, links in this block in the language file `lang/en.json`, find key `parallaxbag` > `some_features`:
-
-![Edit language for some features block](img/edit-language-some-features.png)
-
-
-
-
-
-
-
-## Special Products Tabs
-
-![Special products tabs](img/home1-special-products-tabs.jpg)
+![Home New Product](img/home1-new-product.png)
 
 You can configure number of products and product display type in __Theme Editor__ > __Homepage__:
 
 ![Theme editor configure products on homepage](img/theme-editor-products-on-homepage.png)
 
-Configure colors:
 
-![Configure special products tabs](img/theme-editor-special-products-tabs.png)
 
 
 
+## Home - Text Block Slideshow
 
+![Home Text Block Slideshow](img/home-policy.png)
 
-## Free Shipping & Return Block
+To change the text of the block, you edit in this html file :
 
-![Free shipping and return block](img/home1-free-shipping-return.png)
+`..\templates\components\emthemes-modez\sections\section-policy.html`
 
-You can edit text of this block in the language file `lang/en.json`, find key `parallaxbag` > `free_shipping_return`:
 
-![Edit language for free shipping return](img/edit-language-free-shipping-return.png)
+To change the banners:
 
-To remove the yellow background image, you can add this custom code in Storefront > Footer Script:
+Step 1: You upload the banners in __Storefront__ > __Image Manager__  and copy its url.
 
-```html
-<style>
-.emthemesModez-section--parallaxbag-freeShippingReturn {
-    background-image: none;
-}
-</style>
-```
+![Upload Image Manager](img/home-upload-image.png)
 
-Or if you want to replace your your own image, upload your image in Image Manager and copy its URL.
 
-Edit the background code to: `background-image: url('/path/to/your/image');`
+Step 2: Paste the image's url in this html file:
 
+`..\templates\components\emthemes-modez\sections\section-policy.html`
 
+![Image Url](img/image-url.png)
 
 
-## Popular Categories
 
-![Popular categories block](img/home1-popular-categories.jpg)
 
-You can edit title, category images, specify category ID to display category in the language file `lang/en.json`. Find key `parallaxbag` > `popular_categories`:
+## Home - Product Background Parallax
 
-![Edit language file for popular categories section](img/edit-language-popular-categories.png)
+![Home Product Parallax](img/home-new-parallax.png)
 
-You can find the category ID by editing the category, look at the URL on your web browser, the number is category ID:
+__To change the background image:__
 
-![Find category id](img/find-category-id.png)
+Step 1: You upload the background image in __Storefront__ > __Image Manager__ 
+and copy its url.
 
-Note: this block only works for the root categories.
+![Upload Image Manager](img/home-upload-image.png)
 
+Step 2: Paste the image's url in the language file `lang/en.json`, find key `newParallax` > `bg_img`:
 
+![Edit language for new parallax](img/home-new-parallax-bg.png)
 
 
 
-## Promotion Video Block
+__To remove diamond effects:__
 
-![Promotion video block](img/home1-promotion-video.jpg)
+Step 1 : You find key `illustration` in this html file:
 
-You can edit heading, sub-heading, background image and video in the language file `lang/en.json`. Find key `parallaxbag` > `video`:
+`..\templates\components\products\new.html`
 
-![Edit language for promotion video](img/edit-language-promotion-video.png)
+Step 2 : Remove this below html and save the file to update.
 
+![Home Diamond Effect](img/diamond-effect.png)
 
 
 
+## Home - Featured Product Categories List
 
-## 6 Banners Block
+![Home Product Categories List](img/home-categories.png)
 
-![6 banners block](img/home1-six-banners.jpg)
+You can change title of categories list in the language file `lang/en.json`, find key `newCategories` > `heading`:
 
-You can edit these banners in the language file `lang/en.json`. Find key `parallaxbag` > `six_banners`:
+![Edit language for product categories list](img/home-new-categories.png)
 
-![Edit language for six banners block](img/edit-language-six-banners.png)
+You can configure number of products and product display type in __Theme Editor__ > __Homepage__:
 
+![Theme editor configure products on homepage](img/theme-editor-products-on-homepage.png)
 
 
 
+## Home - Fifth Banners Block
 
-## Testimonials Slider
+![Home Fifth Banners Block](img/home-fifth-banner.png)
 
-![Testimonials Slider](img/home1-testimonials.png)
+To change the banners, 
 
-You can edit testimonials in the language file `lang/en.json`. Find key `parallaxbag` > `testimonials`:
+Step 1: You upload the images in __Storefront__ > __Image Manager__ and copy its url
 
-![Edit language testimonials](img/edit-language-testimonials.png)
+![Upload Image Manager](img/home-upload-image.png)
 
+Step 2 : Paste the image's url in this html file:
 
+`..\templates\components\emthemes-modez\sections\section-fifth-banners.html`
 
+![Image url](img/home-fith-banner-url.png)
 
-## Image Carousel
 
-![Image carousel](img/home1-image-carousel.png)
 
-To edit image and links in this image carousel section, edit the language file, find key `emthemesmodez` > `image_carousel`
+## Image Brands Carousel
 
-![Edit language image carousel](img/edit-language-brands-carousel.png)
+![Image carousel](img/brand-slider.png)
 
-- `image*`: is link to the image.
-- `title*`: is image text description.
-- `url*`: is image link. Leave a single space letter in the value if you want to hide any image.
+Step 1: You upload the images in __Storefront__ > __Image Manager__ and copy its url
 
+![Upload Image Manager](img/home-upload-image.png)
 
+Step 2 : Paste the image's url in this html file:
 
+`..\templates\components\emthemes-modez\brand\carousel.html`
 
-## Footer - 3 Banners
+![Image url](img/brand-url.png)
 
-![Footer 3 banners](img/home1-footer-3-banners.png)
 
-You can edit content of 3 banners in the language file `lang/en.json`. Find key `parallaxbag` > `footer_three_banners`:
 
-![Edit language for footer 3 banners](img/edit-language-footer-3-banners.png)
 
+## Instagram Block
 
+![Instagram](img/instagram.png)
 
+Edit language file `lang/en.json` find key `instagram`:
 
-## Footer - Customer Services Links
+![Edit language instagram](img/instagram-lang.png)
 
-![footer customer services](img/home1-footer-customer-services.png)
+
+
+
+
+## Footer - Links
+
+![footer links](img/footer-links.png)
 
 Edit language file `lang/en.json` find key `footer` > `links`:
 
-![Edit language footer customer services](img/edit-language-footer-customer-services.png)
+![edit language footer links](img/footer-links-lang.png)
 
 
 
 
+## Footer - Social Icons
 
-## Footer - Delivery & Returns
-
-![footer delivery & returns](img/home1-footer-delivery-returns.png)
-
-Edit language file `lang/en.json` find key `footer` > `links`:
-
-![edit language footer delivery & returns](img/edit-language-footer-delivery-returns.png)
-
-
-
-
-
-## Footer - About Us
-
-![Footer about us](img/home1-footer-about-us.png)
-
-Edit language file `lang/en.json` find key `footer` > `about` & `about_text`:
-
-![Edit language footer about us](img/edit-language-footer-about-us.png)
-
-
-
-## Footer - Contact Us
-
-![Footer contact us](img/home1-footer-contact-us.png)
-
-In your admin page > __Store Setup__ > __Store Profile__, edit __Store Address__ and __Phone__:
-
-![Edit store address & phone](img/edit-store-address-phone.png)
-
-For email, edit the language file `lang/en.json`, find key `footer` > `email`:
-
-![Edit email in the language file](img/edit-language-footer-email.png)
-
-
-
-
-
-## Footer - Connect With Us
-
-![Footer connect with us](img/home1-footer-connect-with-us.png)
+![Footer connect with us](img/footer-social.png)
 
 In your admin page > __Storefront Design__ > __Design Options__ > __Social Media__, enter your social links:
 
@@ -443,9 +379,9 @@ In your admin page > __Storefront Design__ > __Design Options__ > __Social Media
 
 
 
-## Payment Icons
+## Footer - Payment Icons
 
-![Theme editor payment icons](img/theme-editor-payment-icons.png)
+![Theme editor payment icons](img/footer-payment.png)
 
 To show/hide payment icons, go to Theme __Editor__ > __Payment Icons__ secitons, check or uncheck any icons you want to show or hide.
 
@@ -453,7 +389,7 @@ To show/hide payment icons, go to Theme __Editor__ > __Payment Icons__ secitons,
 
 ## Credit Links
 
-![Theme editor credit links](img/theme-editor-credits.png)
+![Theme editor credit links](img/credit-link.png)
 
 To show/hide the credit links, go to Theme Editor > __Footer__ section, tick or untick the checkboxes as showing above.
 
