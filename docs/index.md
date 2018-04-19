@@ -1,8 +1,8 @@
 # User Guide - BigCommerce Theme Rachel Daisy
 
-Theme Version: 1.3.5 (2018-04-05)
+Theme Version: 1.0.0 (2018-04-19)
 
-Theme designed and developed by [papathemes](https://papathemes.com). Contact for support via email <tvlgiao@gmail.com>.
+Theme designed and developed by [papathemes](https://papathemes.com). Contact for support via email <contact@papathemes.com>.
 
 ## User Guide Contents
 
