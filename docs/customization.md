@@ -473,50 +473,11 @@ Create a web page for guide:
 ![size guide web page](img/size-guide-web-page.png)
 
 
-## Show Fullscreen popup banner
-
-![Fullscreen popup banner](img/home1-fullscreen-banner.jpg)
-
-To show this fullscreen popup banner on homepage, Go to Marketing > Banners > Create a banner.
-
-In Banner Content, click on button HTML button (Edit HTML source) and input content below:
-
-```html
-<div id="emthemesModezBannersBlockFullscreenBanner" class="emthemesModez-bannersContainer emthemesModez-bannersContainer--fullscreen tada animatecss" data-emthemesmodez-fullscreen-modal="" data-emthemesmodez-fullscreen-modal-delay="5000">
-<div class="emthemesModez-banner">
-<div class="emthemesModez-banner-figure"><a href="https://store-fcn1lgnyqp.mybigcommerce.com/shoes/"><img class="emthemesModez-banner-image" title="Fullscreen Banner" src="https://tvlgiao.github.io/bigcommerce-themes/parallaxbag/demo/images/banner19.jpg" alt="Fullscreen Banner" /></a>
-<div class="emthemesModez-banner-figcaption">
-<div class="emthemesModez-banner-figcaption-body">
-<h4 class="emthemesModez-banner-figcaption-title">Bag Store</h4>
-<div class="emthemesModez-banner-figcaption-text">UP TO <span class="alt" style="color: red;">50%</span> OFF</div>
-<a class="button button--primary emthemesModez-banner-figcaption-button" href="https://store-fcn1lgnyqp.mybigcommerce.com/shoes/">Shop Now</a></div>
-</div>
-</div>
-</div>
-</div>
-```
-
-![Edit fullscreen popup banner](img/edit-fullscreen-popup-banner.jpg)
-
-- Choose **Show on Page** = `Home Page`.
-- Choose **Location** = `Bottom of Page`.
-- Tick on **Visible** = `Yes`.
-
-
 ## Banner Sizes
 
-### Homepage 1
+### Homepage
 
 ![home1 banner sizes](img/home1-banner-sizes.png)
-
-### Homepage 2
-
-![home2 banner sizes](img/home2-banner-sizes.png)
-
-### Homepage 3
-
-![home3 banner sizes](img/home3-banner-sizes.png)
-
 
 
 
