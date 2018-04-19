@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Customization - BigCommerce Theme Rachel Daisy - User Guide</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/highlight.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/style.css" rel="stylesheet">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Customization";
+    var mkdocs_page_input_path = "customization.md";
+    var mkdocs_page_url = "/customization/index.html";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script> 
+  
+  <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-241859-16', 'bc-racheldaisy-docs.papathemes.com');
+      ga('send', 'pageview');
+  </script>
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../index.html" class="icon icon-home"> BigCommerce Theme Rachel Daisy - User Guide</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../index.html">Home</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../installation/index.html">Install the theme</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../quickstart/index.html">Quick Start Guide</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="index.html">Customization</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#customization">Customization</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#top-banner">Top Banner</a></li>
+        
+            <li><a class="toctree-l3" href="#hotline-in-top-banner">HotLine in Top Banner</a></li>
+        
+            <li><a class="toctree-l3" href="#links-in-top-banner">Links in Top Banner</a></li>
+        
+            <li><a class="toctree-l3" href="#header">Header</a></li>
+        
+            <li><a class="toctree-l3" href="#mega-menu">Mega Menu</a></li>
+        
+            <li><a class="toctree-l3" href="#main-slideshow-carousel">Main Slideshow / Carousel</a></li>
+        
+            <li><a class="toctree-l3" href="#home-new-product-block">Home - New Product Block</a></li>
+        
+            <li><a class="toctree-l3" href="#home-text-block-slideshow">Home - Text Block Slideshow</a></li>
+        
+            <li><a class="toctree-l3" href="#home-product-background-parallax">Home - Product Background Parallax</a></li>
+        
+            <li><a class="toctree-l3" href="#home-featured-product-categories-list">Home - Featured Product Categories List</a></li>
+        
+            <li><a class="toctree-l3" href="#home-fifth-banners-block">Home - Fifth Banners Block</a></li>
+        
+            <li><a class="toctree-l3" href="#image-brands-carousel">Image Brands Carousel</a></li>
+        
+            <li><a class="toctree-l3" href="#instagram-block">Instagram Block</a></li>
+        
+            <li><a class="toctree-l3" href="#footer-links">Footer - Links</a></li>
+        
+            <li><a class="toctree-l3" href="#footer-social-icons">Footer - Social Icons</a></li>
+        
+            <li><a class="toctree-l3" href="#footer-payment-icons">Footer - Payment Icons</a></li>
+        
+            <li><a class="toctree-l3" href="#credit-links">Credit Links</a></li>
+        
+            <li><a class="toctree-l3" href="#assign-different-product-layout-to-a-specific-product-page">Assign different product layout to a specific product page</a></li>
+        
+            <li><a class="toctree-l3" href="#assign-different-category-layout-to-a-specific-category-page">Assign different category layout to a specific category page</a></li>
+        
+            <li><a class="toctree-l3" href="#show-custom-product-labels">Show custom product labels</a></li>
+        
+            <li><a class="toctree-l3" href="#show-color-swatches-on-product-card">Show color swatches on product card:</a></li>
+        
+            <li><a class="toctree-l3" href="#show-size-guide-color-guide-on-product-attributes">Show Size guide / Color guide on product attributes</a></li>
+        
+            <li><a class="toctree-l3" href="#show-fullscreen-popup-banner">Show Fullscreen popup banner</a></li>
+        
+            <li><a class="toctree-l3" href="#banner-sizes">Banner Sizes</a></li>
+        
+            <li><a class="toctree-l3" href="#mix-contents-from-other-theme-styles">Mix contents from other theme styles</a></li>
+        
+            <li><a class="toctree-l3" href="#add-our-own-css-sass-code">Add our own CSS (Sass) code</a></li>
+        
+        </ul>
+    
+
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../settings/index.html">Theme Settings</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../faqs/index.html">FAQs</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../support/index.html">Help & Support</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">BigCommerce Theme Rachel Daisy - User Guide</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Customization</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="customization">Customization<a class="headerlink" href="#customization" title="Permanent link">&para;</a></h1>
+<p>This page will explain all configuration available and how to edit each section appear on theme. Let's view the first homepage.</p>
+<p><img alt="Homepage of Default Style" src="../img/home1.jpg" /></p>
+<h2 id="top-banner">Top Banner<a class="headerlink" href="#top-banner" title="Permanent link">&para;</a></h2>
+<p><img alt="Top Banner" src="../img/home1-top-banner.png" /></p>
+<p>The top banner can be showed / edited in admin page &gt; <strong>Marketing</strong> &gt; <strong>Banners</strong>. When you add / edit remember to choose <strong>Location</strong> is <strong>Top of Page</strong>.</p>
+<h3 id="colors-customization">Colors Customization<a class="headerlink" href="#colors-customization" title="Permanent link">&para;</a></h3>
+<p>To customize colors of this section, go to admin page &gt; <strong>Storefront Design</strong> &gt; <strong>My Themes</strong>, click button <strong>Customize</strong> of the current theme to open the Theme Editor. </p>
+<p><img alt="Click customize theme" src="../img/click-customize-theme.png" /></p>
+<p>Look into the options showing below:</p>
+<p><img alt="Theme editor top banner" src="../img/theme-editor-top-banner.png" /></p>
+<h2 id="hotline-in-top-banner">HotLine in Top Banner<a class="headerlink" href="#hotline-in-top-banner" title="Permanent link">&para;</a></h2>
+<p><img alt="HotLine" src="../img/hotline.png" /></p>
+<p>You can change the hotline text in this html file </p>
+<p><code>..\templates\components\common\header.html</code></p>
+<p><img alt="Edit hotline lang" src="../img/hotline-lang.png" /></p>
+<h2 id="links-in-top-banner">Links in Top Banner<a class="headerlink" href="#links-in-top-banner" title="Permanent link">&para;</a></h2>
+<p><img alt="Links in top banner" src="../img/top-link.png" /></p>
+<p>You can change the text links in this html file:</p>
+<p><code>..\templates\components\common\header-toplinks-right.html</code></p>
+<p><img alt="Edit top links lang" src="../img/top-link-lang.png" /></p>
+<h2 id="header">Header<a class="headerlink" href="#header" title="Permanent link">&para;</a></h2>
+<h3 id="header-styles">Header Styles<a class="headerlink" href="#header-styles" title="Permanent link">&para;</a></h3>
+<p>This theme support 3 different header styles:
+- Logo at left
+- Logo at right
+- Logo at center</p>
+<p><img alt="Header Logo at left" src="../img/home1-header-left.png" /></p>
+<p><img alt="Header Logo at right" src="../img/home1-header-right.png" /></p>
+<p><img alt="Header Logo at center" src="../img/home1-header-center.png" /></p>
+<p>To configure, open the <strong>Theme Editor</strong>, scroll down to section <strong>Logo</strong>, click to expand the logo options. Choose a certain option of <strong>Logo position</strong>, then click <strong>Refresh</strong> button appear after.</p>
+<p><img alt="Change logo position" src="../img/change-logo-position.png" /></p>
+<h3 id="colors-customization_1">Colors Customization<a class="headerlink" href="#colors-customization_1" title="Permanent link">&para;</a></h3>
+<p>To customize colors of the header section, look into the options showing below in the Theme Editor:</p>
+<p><img alt="Theme editor header" src="../img/theme-editor-header.png" /></p>
+<h2 id="mega-menu">Mega Menu<a class="headerlink" href="#mega-menu" title="Permanent link">&para;</a></h2>
+<p><img alt="Mega Menu" src="../img/home1-megamenu.png" /></p>
+<p>Images or labels appear on the mega menu can be edited in the language file <code>en.json</code>:</p>
+<p><img alt="Edit language for mega menu" src="../img/edit-language-megamenu.png" /></p>
+<p>For example if the current menu <strong>Shop By</strong> has category ID = <code>23</code>.</p>
+<ul>
+<li><code>"show_cat_image_23": "yes"</code>: specify an image will show on this menu.</li>
+<li><code>cat_image_23</code>: is the image URL.</li>
+</ul>
+<p>If you want to show a label beside a menu items like above image, for example the menu item <strong>Season</strong> has category ID = <code>28</code>:</p>
+<ul>
+<li><code>"show_item_label_28": "yes"</code>: specify a label will show beside this menu item.</li>
+<li><code>"item_label_28"</code>: is the label text.</li>
+</ul>
+<p>You can add more for other items as you want.</p>
+<h3 id="dropdown-mega-menu-1">Dropdown Mega Menu 1<a class="headerlink" href="#dropdown-mega-menu-1" title="Permanent link">&para;</a></h3>
+<p><img alt="Dropdown mega menu 1" src="../img/home1-megamenu1.jpg" /></p>
+<p>To display this mega menu when hover a category menu item, edit the language file <code>lang/en.json</code>, in section <code>emthemesmodez</code> &gt; <code>megamenu</code>, you will see <code>"menu_cat_0": "2"</code>.</p>
+<ul>
+<li><code>menu_cat_0</code> mean the first category item (start from 0).</li>
+<li><code>2</code> is the identifier number of this dropdown menu.</li>
+</ul>
+<p>For example if you want the third category item show this dropdown menu style, input <code>"menu_cat_2": "2"</code>.</p>
+<p>To edit content inside this dropdown menu, you can edit template file <code>/templates/components/common/navigation-list-mega2.html</code></p>
+<p>Edit banner images on this dropdown menu here:</p>
+<p><img alt="Edit banner images of mega menu 2" src="../img/edit-template-file-mega2-banners.png" /></p>
+<h3 id="dropdown-mega-menu-2">Dropdown Mega Menu 2<a class="headerlink" href="#dropdown-mega-menu-2" title="Permanent link">&para;</a></h3>
+<p><img alt="Dropdown mega menu 2" src="../img/home1-megamenu2.jpg" /></p>
+<p>To display this mega menu when hover a category menu item, edit the language file <code>lang/en.json</code>, in section <code>emthemesmodez</code> &gt; <code>megamenu</code>, you will see <code>"menu_cat_1": "3"</code>.</p>
+<ul>
+<li><code>menu_cat_1</code> mean the second category item (start from 0).</li>
+<li><code>3</code> is the identifier number of this dropdown menu.</li>
+<li><code>mega_page_X</code>: mean the Xth page item (start from 0).</li>
+</ul>
+<p>For example if you want the third category item show this dropdown menu style, input <code>"menu_cat_2": "3"</code>.</p>
+<p>To edit content inside this dropdown menu, you can edit template file <code>/templates/components/common/navigation-list-mega3.html</code></p>
+<p>Edit banner images on this dropdown menu here:</p>
+<p><img alt="Edit banner images of mega menu 3" src="../img/edit-template-file-mega3-banners.png" /></p>
+<h3 id="dropdown-mega-menu-3">Dropdown Mega Menu 3<a class="headerlink" href="#dropdown-mega-menu-3" title="Permanent link">&para;</a></h3>
+<p><img alt="Dropdown mega menu 3" src="../img/home1-megamenu3.jpg" /></p>
+<p>To display this mega menu when hover a category menu item, edit the language file <code>lang/en.json</code>, in section <code>emthemesmodez</code> &gt; <code>megamenu</code>, you will see <code>"menu_cat_2": "4"</code>.</p>
+<ul>
+<li><code>menu_cat_2</code> mean the third category item (start from 0).</li>
+<li><code>4</code> is the identifier number of this dropdown menu.</li>
+<li><code>mega_page_X</code>: mean the Xth page item (start from 0).</li>
+</ul>
+<p>For example if you want the third category item show this dropdown menu style, input <code>"menu_cat_2": "4"</code>.</p>
+<p>To edit content inside this dropdown menu, you can edit template file <code>/templates/components/common/navigation-list-mega4.html</code></p>
+<p>Edit banner images and static text on this dropdown menu here:</p>
+<p><img alt="Edit banner images of mega menu 4" src="../img/edit-template-file-mega4-banners.png" /></p>
+<h3 id="dropdown-mega-menu-4">Dropdown Mega Menu 4<a class="headerlink" href="#dropdown-mega-menu-4" title="Permanent link">&para;</a></h3>
+<p><img alt="Dropdown mega menu 4" src="../img/home1-megamenu4.jpg" /></p>
+<p>To display this mega menu when hover a category menu item, edit the language file <code>lang/en.json</code>, in section <code>emthemesmodez</code> &gt; <code>megamenu</code>, you will see <code>"menu_cat_3": "5"</code>.</p>
+<ul>
+<li><code>menu_cat_3</code> mean the fourth category item (start from 0).</li>
+<li><code>5</code> is the identifier number of this dropdown menu.</li>
+<li><code>mega_page_X</code>: mean the Xth page item (start from 0).</li>
+</ul>
+<p>For example if you want the third category item show this dropdown menu style, input <code>"menu_cat_2": "5"</code>.</p>
+<p>To edit content inside this dropdown menu, you can edit template file <code>/templates/components/common/navigation-list-mega5.html</code></p>
+<p>Edit banner images on this dropdown menu here:</p>
+<p><img alt="Edit banner images of mega menu 5" src="../img/edit-template-file-mega5-banners.png" /></p>
+<p>Replace the image URL <code>https://tvlgiao.github.io/bigcommerce-themes/parallaxbag/demo/images/banner-menu-jewelry{{@index}}.jpg</code> by your own but keep <code>{{@index}}</code> to be replaced by index numbers (start from <code>0</code>).</p>
+<h3 id="default-dropdown-mega-menu">Default Dropdown Mega Menu<a class="headerlink" href="#default-dropdown-mega-menu" title="Permanent link">&para;</a></h3>
+<p><img alt="Dropdown mega menu" src="../img/home1-megamenu-default.jpg" /></p>
+<p>To display the default style mega menu when hover a category menu item, edit the language file <code>lang/en.json</code>, in section <code>emthemesmodez</code> &gt; <code>megamenu</code>, you will see <code>"menu_cat_4": " "</code>.</p>
+<ul>
+<li><code>menu_cat_4</code> mean the fifth category item (start from 0). Leave a space character between the double quote to set default style dropdown menu.</li>
+<li><code>mega_page_X</code>: mean the Xth page item (start from 0).</li>
+</ul>
+<p>For example if you want the third category item show default style dropdown menu, input <code>"menu_cat_2": " "</code>.</p>
+<h2 id="main-slideshow-carousel">Main Slideshow / Carousel<a class="headerlink" href="#main-slideshow-carousel" title="Permanent link">&para;</a></h2>
+<h3 id="edit-the-slideshow">Edit the slideshow<a class="headerlink" href="#edit-the-slideshow" title="Permanent link">&para;</a></h3>
+<p>Edit the slideshow in admin page &gt; <strong>Storefront Design</strong> &gt; <strong>Home Page Carousel</strong>:</p>
+<p><img alt="Edit homepage carousel" src="../img/edit-homepage-carousel.png" /></p>
+<h3 id="change-position-of-text-content">Change position of text content<a class="headerlink" href="#change-position-of-text-content" title="Permanent link">&para;</a></h3>
+<p>The theme supports showing slideshow content like heading, text, button on <strong>left</strong>, <strong>right</strong> or <strong>center</strong> of the image. To configure this option, open Theme Editor, Look into section Carousel, click to expand:</p>
+<p><img alt="Edit position of each carousel slide" src="../img/theme-editor-carousel-desc-position.png" /></p>
+<p>Choose position of each slide you want to change.</p>
+<h3 id="colors-customization_2">Colors Customization<a class="headerlink" href="#colors-customization_2" title="Permanent link">&para;</a></h3>
+<p>To customize color of the slideshow's elements, look into section <strong>Carousel</strong> in the Theme Editor:</p>
+<p><img alt="Theme editor carousel" src="../img/theme-editor-carousel.png" /></p>
+<h3 id="hide-the-slideshow">Hide the slideshow<a class="headerlink" href="#hide-the-slideshow" title="Permanent link">&para;</a></h3>
+<p>To hide the slideshow on homepage, uncheck on the checkbox <strong>Show Carousel</strong> in section <strong>Carousel</strong> of the Theme Editor.</p>
+<h2 id="home-new-product-block">Home - New Product Block<a class="headerlink" href="#home-new-product-block" title="Permanent link">&para;</a></h2>
+<p><img alt="Home New Product" src="../img/home1-new-product.png" /></p>
+<p>You can configure number of products and product display type in <strong>Theme Editor</strong> &gt; <strong>Homepage</strong>:</p>
+<p><img alt="Theme editor configure products on homepage" src="../img/theme-editor-products-on-homepage.png" /></p>
+<h2 id="home-text-block-slideshow">Home - Text Block Slideshow<a class="headerlink" href="#home-text-block-slideshow" title="Permanent link">&para;</a></h2>
+<p><img alt="Home Text Block Slideshow" src="../img/home-policy.png" /></p>
+<p>To change the text of the block, you edit in this html file :</p>
+<p><code>..\templates\components\emthemes-modez\sections\section-policy.html</code></p>
+<p>To change the banners:</p>
+<p>Step 1: You upload the banners in <strong>Storefront</strong> &gt; <strong>Image Manager</strong>  and copy its url.</p>
+<p><img alt="Upload Image Manager" src="../img/home-upload-image.png" /></p>
+<p>Step 2: Paste the image's url in this html file:</p>
+<p><code>..\templates\components\emthemes-modez\sections\section-policy.html</code></p>
+<p><img alt="Image Url" src="../img/image-url.png" /></p>
+<h2 id="home-product-background-parallax">Home - Product Background Parallax<a class="headerlink" href="#home-product-background-parallax" title="Permanent link">&para;</a></h2>
+<p><img alt="Home Product Parallax" src="../img/home-new-parallax.png" /></p>
+<p><strong>To change the background image:</strong></p>
+<p>Step 1: You upload the background image in <strong>Storefront</strong> &gt; <strong>Image Manager</strong> 
+and copy its url.</p>
+<p><img alt="Upload Image Manager" src="../img/home-upload-image.png" /></p>
+<p>Step 2: Paste the image's url in the language file <code>lang/en.json</code>, find key <code>newParallax</code> &gt; <code>bg_img</code>:</p>
+<p><img alt="Edit language for new parallax" src="../img/home-new-parallax-bg.png" /></p>
+<p><strong>To remove diamond effects:</strong></p>
+<p>Step 1 : You find key <code>illustration</code> in this html file:</p>
+<p><code>..\templates\components\products\new.html</code></p>
+<p>Step 2 : Remove this below html and save the file to update.</p>
+<p><img alt="Home Diamond Effect" src="../img/diamond-effect.png" /></p>
+<h2 id="home-featured-product-categories-list">Home - Featured Product Categories List<a class="headerlink" href="#home-featured-product-categories-list" title="Permanent link">&para;</a></h2>
+<p><img alt="Home Product Categories List" src="../img/home-categories.png" /></p>
+<p>You can change title of categories list in the language file <code>lang/en.json</code>, find key <code>newCategories</code> &gt; <code>heading</code>:</p>
+<p><img alt="Edit language for product categories list" src="../img/home-new-categories.png" /></p>
+<p>You can configure number of products and product display type in <strong>Theme Editor</strong> &gt; <strong>Homepage</strong>:</p>
+<p><img alt="Theme editor configure products on homepage" src="../img/theme-editor-products-on-homepage.png" /></p>
+<h2 id="home-fifth-banners-block">Home - Fifth Banners Block<a class="headerlink" href="#home-fifth-banners-block" title="Permanent link">&para;</a></h2>
+<p><img alt="Home Fifth Banners Block" src="../img/home-fifth-banner.png" /></p>
+<p>To change the banners, </p>
+<p>Step 1: You upload the images in <strong>Storefront</strong> &gt; <strong>Image Manager</strong> and copy its url</p>
+<p><img alt="Upload Image Manager" src="../img/home-upload-image.png" /></p>
+<p>Step 2 : Paste the image's url in this html file:</p>
+<p><code>..\templates\components\emthemes-modez\sections\section-fifth-banners.html</code></p>
+<p><img alt="Image url" src="../img/home-fith-banner-url.png" /></p>
+<h2 id="image-brands-carousel">Image Brands Carousel<a class="headerlink" href="#image-brands-carousel" title="Permanent link">&para;</a></h2>
+<p><img alt="Image carousel" src="../img/brand-slider.png" /></p>
+<p>Step 1: You upload the images in <strong>Storefront</strong> &gt; <strong>Image Manager</strong> and copy its url</p>
+<p><img alt="Upload Image Manager" src="../img/home-upload-image.png" /></p>
+<p>Step 2 : Paste the image's url in this html file:</p>
+<p><code>..\templates\components\emthemes-modez\brand\carousel.html</code></p>
+<p><img alt="Image url" src="../img/brand-url.png" /></p>
+<h2 id="instagram-block">Instagram Block<a class="headerlink" href="#instagram-block" title="Permanent link">&para;</a></h2>
+<p><img alt="Instagram" src="../img/instagram.png" /></p>
+<p>Edit language file <code>lang/en.json</code> find key <code>instagram</code>:</p>
+<p><img alt="Edit language instagram" src="../img/instagram-lang.png" /></p>
+<h2 id="footer-links">Footer - Links<a class="headerlink" href="#footer-links" title="Permanent link">&para;</a></h2>
+<p><img alt="footer links" src="../img/footer-links.png" /></p>
+<p>Edit language file <code>lang/en.json</code> find key <code>footer</code> &gt; <code>links</code>:</p>
+<p><img alt="edit language footer links" src="../img/footer-links-lang.png" /></p>
+<h2 id="footer-social-icons">Footer - Social Icons<a class="headerlink" href="#footer-social-icons" title="Permanent link">&para;</a></h2>
+<p><img alt="Footer connect with us" src="../img/footer-social.png" /></p>
+<p>In your admin page &gt; <strong>Storefront Design</strong> &gt; <strong>Design Options</strong> &gt; <strong>Social Media</strong>, enter your social links:</p>
+<p><img alt="Edit social media icons" src="../img/edit-social-media.png" /></p>
+<h2 id="footer-payment-icons">Footer - Payment Icons<a class="headerlink" href="#footer-payment-icons" title="Permanent link">&para;</a></h2>
+<p><img alt="Theme editor payment icons" src="../img/footer-payment.png" /></p>
+<p>To show/hide payment icons, go to Theme <strong>Editor</strong> &gt; <strong>Payment Icons</strong> secitons, check or uncheck any icons you want to show or hide.</p>
+<h2 id="credit-links">Credit Links<a class="headerlink" href="#credit-links" title="Permanent link">&para;</a></h2>
+<p><img alt="Theme editor credit links" src="../img/credit-link.png" /></p>
+<p>To show/hide the credit links, go to Theme Editor &gt; <strong>Footer</strong> section, tick or untick the checkboxes as showing above.</p>
+<h2 id="assign-different-product-layout-to-a-specific-product-page">Assign different product layout to a specific product page<a class="headerlink" href="#assign-different-product-layout-to-a-specific-product-page" title="Permanent link">&para;</a></h2>
+<p>Theme has 2 product layouts: <strong>default</strong> and <strong>Fullwith with Lightbox</strong>.</p>
+<p>Product layout fullwidth:</p>
+<p><img alt="Product layout fullwidth" src="../img/product-layout-fullwidth.jpg" /></p>
+<p>To assign a product layout, edit your product in the admin panel. In tab <strong>Order Details</strong>, choose <strong>Template Layout File</strong> with the layout out want:</p>
+<p><img alt="Assign product layout" src="../img/assign-product-layout.png" /></p>
+<h2 id="assign-different-category-layout-to-a-specific-category-page">Assign different category layout to a specific category page<a class="headerlink" href="#assign-different-category-layout-to-a-specific-category-page" title="Permanent link">&para;</a></h2>
+<p>Theme has 2 category layout: <strong>default</strong> and <strong>Fullwidth</strong>.</p>
+<p>Category layout fullwidth:</p>
+<p><img alt="Category layout fullwidth" src="../img/category-layout-fullwidth.jpg" /></p>
+<p>To assign a category layout, edit your category in the admin panel. Choose <strong>Template Layout File</strong> with the layout out want:</p>
+<p><img alt="Assign category layout" src="../img/assign-category-layout.png" /></p>
+<h2 id="show-custom-product-labels">Show custom product labels<a class="headerlink" href="#show-custom-product-labels" title="Permanent link">&para;</a></h2>
+<p><img alt="Product labels" src="../img/product-labels.jpg" /></p>
+<p>Turn on displaying product labels in the <strong>Theme Editor</strong> &gt; <strong>Products</strong> section, tick on the checkbox <strong>Show custom label using custom field 'card_label'</strong> and choose <strong>Display Product Sale Badges</strong> as <strong>Top Left</strong>.</p>
+<p><img alt="Theme editor products options" src="../img/theme-editor-products-show-options.png" /></p>
+<p><img alt="Theme editor product sale badges" src="../img/theme-editor-product-sale-badges.png" /></p>
+<p>Edit your product in the admin panel to add custom label:</p>
+<p><img alt="Edit product custom fields" src="../img/edit-product-custom-fields.png" /></p>
+<p>Add a custom label named <code>card_label</code> and enter label text in the value input box.</p>
+<h2 id="show-color-swatches-on-product-card">Show color swatches on product card:<a class="headerlink" href="#show-color-swatches-on-product-card" title="Permanent link">&para;</a></h2>
+<p><img alt="Color swatches on product card" src="../img/product-card-color-swatches.png" /></p>
+<p>To display color watches on product card, open <strong>Theme Editor</strong> &gt; <strong>Products</strong> section, tick on the checkbox <strong>Show color swatches using custom field 'card_color'</strong>.</p>
+<p><img alt="Theme editor products options" src="../img/theme-editor-products-show-options.png" /></p>
+<p>Edit your product in the admin panel to add custom label:</p>
+<p><img alt="Edit product custom fields" src="../img/edit-product-custom-fields.png" /></p>
+<p>Add a custom label named <code>card_color</code> and enter color hex code in the value input box seperator by commas.</p>
+<h2 id="show-size-guide-color-guide-on-product-attributes">Show Size guide / Color guide on product attributes<a class="headerlink" href="#show-size-guide-color-guide-on-product-attributes" title="Permanent link">&para;</a></h2>
+<p><img alt="Size guide" src="../img/size-guide.png" /></p>
+<p>To display size guide, color guide for any similar link beside product attribute, edit product and add custom fields like below:</p>
+<p><img alt="add custom fields for size guide" src="../img/custom-fields-for-size-guide.png" /></p>
+<p>Create a web page for guide:</p>
+<p><img alt="size guide web page" src="../img/size-guide-web-page.png" /></p>
+<h2 id="show-fullscreen-popup-banner">Show Fullscreen popup banner<a class="headerlink" href="#show-fullscreen-popup-banner" title="Permanent link">&para;</a></h2>
+<p><img alt="Fullscreen popup banner" src="../img/home1-fullscreen-banner.jpg" /></p>
+<p>To show this fullscreen popup banner on homepage, Go to Marketing &gt; Banners &gt; Create a banner.</p>
+<p>In Banner Content, click on button HTML button (Edit HTML source) and input content below:</p>
+<pre><code class="html">&lt;div id=&quot;emthemesModezBannersBlockFullscreenBanner&quot; class=&quot;emthemesModez-bannersContainer emthemesModez-bannersContainer--fullscreen tada animatecss&quot; data-emthemesmodez-fullscreen-modal=&quot;&quot; data-emthemesmodez-fullscreen-modal-delay=&quot;5000&quot;&gt;
+&lt;div class=&quot;emthemesModez-banner&quot;&gt;
+&lt;div class=&quot;emthemesModez-banner-figure&quot;&gt;&lt;a href=&quot;https://store-fcn1lgnyqp.mybigcommerce.com/shoes/&quot;&gt;&lt;img class=&quot;emthemesModez-banner-image&quot; title=&quot;Fullscreen Banner&quot; src=&quot;https://tvlgiao.github.io/bigcommerce-themes/parallaxbag/demo/images/banner19.jpg&quot; alt=&quot;Fullscreen Banner&quot; /&gt;&lt;/a&gt;
+&lt;div class=&quot;emthemesModez-banner-figcaption&quot;&gt;
+&lt;div class=&quot;emthemesModez-banner-figcaption-body&quot;&gt;
+&lt;h4 class=&quot;emthemesModez-banner-figcaption-title&quot;&gt;Bag Store&lt;/h4&gt;
+&lt;div class=&quot;emthemesModez-banner-figcaption-text&quot;&gt;UP TO &lt;span class=&quot;alt&quot; style=&quot;color: red;&quot;&gt;50%&lt;/span&gt; OFF&lt;/div&gt;
+&lt;a class=&quot;button button--primary emthemesModez-banner-figcaption-button&quot; href=&quot;https://store-fcn1lgnyqp.mybigcommerce.com/shoes/&quot;&gt;Shop Now&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<p><img alt="Edit fullscreen popup banner" src="../img/edit-fullscreen-popup-banner.jpg" /></p>
+<ul>
+<li>Choose <strong>Show on Page</strong> = <code>Home Page</code>.</li>
+<li>Choose <strong>Location</strong> = <code>Bottom of Page</code>.</li>
+<li>Tick on <strong>Visible</strong> = <code>Yes</code>.</li>
+</ul>
+<h2 id="banner-sizes">Banner Sizes<a class="headerlink" href="#banner-sizes" title="Permanent link">&para;</a></h2>
+<h3 id="homepage-1">Homepage 1<a class="headerlink" href="#homepage-1" title="Permanent link">&para;</a></h3>
+<p><img alt="home1 banner sizes" src="../img/home1-banner-sizes.png" /></p>
+<h3 id="homepage-2">Homepage 2<a class="headerlink" href="#homepage-2" title="Permanent link">&para;</a></h3>
+<p><img alt="home2 banner sizes" src="../img/home2-banner-sizes.png" /></p>
+<h3 id="homepage-3">Homepage 3<a class="headerlink" href="#homepage-3" title="Permanent link">&para;</a></h3>
+<p><img alt="home3 banner sizes" src="../img/home3-banner-sizes.png" /></p>
+<h2 id="mix-contents-from-other-theme-styles">Mix contents from other theme styles<a class="headerlink" href="#mix-contents-from-other-theme-styles" title="Permanent link">&para;</a></h2>
+<p>For example, if you want to use theme <strong>default</strong> style as the main theme, but also want to display other content blocks from <strong>LaParis II</strong> style. You can edit the template files, rearrange, add more content blocks or delete unused content blocks.</p>
+<p>Let open folder <code>templates</code> &gt; <code>components</code> &gt; <code>emthemes-modez</code> &gt; <code>home</code> in the template files editor:</p>
+<p><img alt="Edit template file home default" src="../img/edit-file-home-default.png" /></p>
+<p>There is 2 files in this folder:</p>
+<ul>
+<li><code>default.html</code>: is used for <strong>default</strong> style.</li>
+<li><code>laparis2.html</code>: is used for <strong>LaParis II</strong> style.</li>
+</ul>
+<p>Let's take a look at contents of 2 files:</p>
+<p><strong>default.html</strong></p>
+<pre><code class="plain">{{&gt; components/emthemes-modez/sections/section section=&quot;banner_laparis1_1&quot;}}
+{{&gt; components/emthemes-modez/sections/section section=&quot;new_products&quot;}}
+{{&gt; components/emthemes-modez/sections/section section=&quot;categories_featured&quot;}}
+{{&gt; components/emthemes-modez/sections/section section=&quot;popular_products&quot;}}
+{{&gt; components/emthemes-modez/sections/section section=&quot;blog_recent&quot;}}
+{{&gt; components/emthemes-modez/sections/section section=&quot;brands_carousel&quot;}}
+{{&gt; components/emthemes-modez/sections/section section=&quot;instagram_grid&quot;}}
+</code></pre>
+
+<p><strong>laparis2.html</strong></p>
+<pre><code class="plain">{{&gt; components/emthemes-modez/sections/section section=&quot;products_by_category_1&quot;}}
+{{&gt; components/emthemes-modez/sections/section section=&quot;products_by_category_2&quot;}}
+{{&gt; components/emthemes-modez/sections/section section=&quot;carousel_laparis2_1&quot;}}
+{{&gt; components/emthemes-modez/sections/section section=&quot;special_products_columns&quot;}}
+{{&gt; components/emthemes-modez/sections/section section=&quot;brands_carousel&quot;}}
+{{&gt; components/emthemes-modez/sections/section section=&quot;instagram_grid&quot;}}
+</code></pre>
+
+<p>The files are showing very clearly how content blocks are displayed. See values in parameter <code>section="..."</code>:</p>
+<ul>
+<li><code>banner_laparis1_1</code>: Is the first block content 3 banners in the homepage of default style.</li>
+<li><code>new_products</code>: Is a block contains new products.</li>
+<li><code>categories_featured</code>: Is a block contains featured products with categories list as appeared on the homepage of default style.</li>
+<li><code>popular_products</code>: Is a block contains popular (or bestselling) products.</li>
+<li><code>blog_recent</code>: Is a block contains recent blog posts.</li>
+<li><code>brands_carousel</code>: Is a brand images carousel.</li>
+<li><code>instagram_grid</code>: Is a block displaying instagram photos.</li>
+<li><code>products_by_category_1</code> &amp; <code>products_by_category_2</code>: Is a block contains product in a certain category as showing on homepage of LaParis II style.</li>
+<li><code>carousel_laparis2_1</code>: Is the image carousel as showing on homepage of LaParis II style.</li>
+<li><code>special_products_columns</code>: Is a block contains 3 columns showing new products, featured products and bestselling products as displayed on homepage of LaParis II style.</li>
+</ul>
+<p>So just copy a line from the other file to the other. Arrange position of these sections as you wish.</p>
+<p>Example of a mixed <strong>default.html</strong>:</p>
+<pre><code class="plain">{{&gt; components/emthemes-modez/sections/section section=&quot;new_products&quot;}}
+{{&gt; components/emthemes-modez/sections/section section=&quot;popular_products&quot;}}
+{{&gt; components/emthemes-modez/sections/section section=&quot;banner_laparis1_1&quot;}}
+{{&gt; components/emthemes-modez/sections/section section=&quot;products_by_category_1&quot;}}
+{{&gt; components/emthemes-modez/sections/section section=&quot;products_by_category_2&quot;}}
+{{&gt; components/emthemes-modez/sections/section section=&quot;instagram_grid&quot;}}
+{{&gt; components/emthemes-modez/sections/section section=&quot;blog_recent&quot;}}
+{{&gt; components/emthemes-modez/sections/section section=&quot;brands_carousel&quot;}}
+</code></pre>
+
+<h2 id="add-our-own-css-sass-code">Add our own CSS (Sass) code<a class="headerlink" href="#add-our-own-css-sass-code" title="Permanent link">&para;</a></h2>
+<p>To add your own custom CSS code you can edit the file <code>assets/scss/_theme-custom.scss_</code> in <strong>Edit Theme Files</strong> editor:</p>
+<p><img alt="Edit file _theme-custom.scss" src="../img/edit-file-theme-custom-css.png" /></p>
+<p><strong>Note: </strong></p>
+<ul>
+<li>Copy / backup this file for future theme upgrade.</li>
+<li>Add custom CSS code required CSS (or Sass) programming skill. It's not recommended for new users.</li>
+</ul>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../settings/index.html" class="btn btn-neutral float-right" title="Theme Settings">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../quickstart/index.html" class="btn btn-neutral" title="Quick Start Guide"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+      <p><a href="https://papathemes.com/bigcommerce-themes/">BigCommerce Themes</a> by <a href="https://papathemes.com">Papathemes</a></p>
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../quickstart/index.html" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../settings/index.html" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js"></script>
+      <script src="https://use.fontawesome.com/540034d990.js"></script>
+      <script src="../search/require.js"></script>
+      <script src="../search/search.js"></script>
+
+</body>
+</html>

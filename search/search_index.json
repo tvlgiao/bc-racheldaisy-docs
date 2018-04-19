@@ -1,0 +1,409 @@
+{
+    "docs": [
+        {
+            "location": "/index.html", 
+            "text": "User Guide - BigCommerce Theme Rachel Daisy\n\n\nTheme Version: 1.0.0 (2018-04-19)\n\n\nTheme designed and developed by \npapathemes\n. Contact for support via email \n.\n\n\nUser Guide Contents\n\n\n\n\nInstall the theme\n\n\nQuick Start Guide\n\n\nCustomization\n\n\nTheme Settings\n\n\nFAQs\n\n\nHelp \n Support", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/index.html#user-guide-bigcommerce-theme-rachel-daisy", 
+            "text": "Theme Version: 1.0.0 (2018-04-19)  Theme designed and developed by  papathemes . Contact for support via email  .", 
+            "title": "User Guide - BigCommerce Theme Rachel Daisy"
+        }, 
+        {
+            "location": "/index.html#user-guide-contents", 
+            "text": "Install the theme  Quick Start Guide  Customization  Theme Settings  FAQs  Help   Support", 
+            "title": "User Guide Contents"
+        }, 
+        {
+            "location": "/installation/index.html", 
+            "text": "Theme Installation\n\n\n\n\nLogin to your BigCommerce store's admin page. \n\n\nGo to \nStorefront Design\n \n \nMy Themes\n. \n\n\nClick button \nUpload Theme\n. On the popup, click button \nSelect theme from your computer\n. \n\n\nChoose the zip file \nRachelDaisy-x.x.x.zip\n to start installing the theme.\n\n\nWaiting for the uploading completed.\n\n\n\n\nWhen a new theme appears, click on the button \nApply Theme\n as showing below:\n\n\n\n\nThen choose a style you want to use:\n\n\n\n\nRefresh your store's front page you should see the theme installed successfully.", 
+            "title": "Install the theme"
+        }, 
+        {
+            "location": "/installation/index.html#theme-installation", 
+            "text": "Login to your BigCommerce store's admin page.   Go to  Storefront Design     My Themes .   Click button  Upload Theme . On the popup, click button  Select theme from your computer .   Choose the zip file  RachelDaisy-x.x.x.zip  to start installing the theme.  Waiting for the uploading completed.   When a new theme appears, click on the button  Apply Theme  as showing below:   Then choose a style you want to use:   Refresh your store's front page you should see the theme installed successfully.", 
+            "title": "Theme Installation"
+        }, 
+        {
+            "location": "/quickstart/index.html", 
+            "text": "Quick Start Guide\n\n\nTheme is customizable and editable via:\n\n\n\n\nTheme Editor\n\n\nTemplate files\n\n\nLanguage files\n\n\n\n\nTheme Editor\n\n\nThis theme provides a powerful Theme Editor with many options let you change styles, colors, fonts and more.\n\n\nTo access the Theme Editor, go to your admin page \n \nStorefront Design\n \n \nMy Themes\n, on the Current Theme section, click \nCustomize\n button:\n\n\n\n\nSee the complete guide of Theme Editor in chapter \nTheme Settings\n.\n\n\nEdit language file\n\n\nLanguage files contains hard-coded static text, images and other links, which can be edited and translated to any languages.\n\n\nTo edit the language file, go to admin page \n \nStorefront Design\n \n \nMy Themes\n, click button \nAdvanced\n \n \nEdit Theme Files\n of the current theme:\n\n\n\n\nFrom the left navigation, click to edit the language file (e.i \nen.json\n):\n\n\n\n\nEdit template files\n\n\nEdit template files is \nnot recommended\n, unless you have HTML, CSS and Sass programming skills.\n\n\nYou can edit the HTML files, SCSS files, images. However remember to \nbackup your changed files\n as they are overwritten when you upgrade the theme.\n\n\nTo edit the template files, go to admin page \n \nStorefront Design\n \n \nMy Themes\n, click button \nAdvanced\n \n \nEdit Theme Files\n of the current theme:\n\n\n\n\n\n\nAll HTML files are in directory \ntemplates\n.\n\n\nAll Sass files are in directory \nassets / scss\n.\n\n\nImages are placed in directory \nassets / img\n.\n\n\n\n\nActivate a theme style\n\n\nTo activate a theme style, open Theme Editor, find \nStyles\n section, click on the theme variation's thumbnail to activate corresponding style.\n\n\n\n\nTheme includes 1 styles:\n\n\nDefault", 
+            "title": "Quick Start Guide"
+        }, 
+        {
+            "location": "/quickstart/index.html#quick-start-guide", 
+            "text": "Theme is customizable and editable via:   Theme Editor  Template files  Language files", 
+            "title": "Quick Start Guide"
+        }, 
+        {
+            "location": "/quickstart/index.html#theme-editor", 
+            "text": "This theme provides a powerful Theme Editor with many options let you change styles, colors, fonts and more.  To access the Theme Editor, go to your admin page    Storefront Design     My Themes , on the Current Theme section, click  Customize  button:   See the complete guide of Theme Editor in chapter  Theme Settings .", 
+            "title": "Theme Editor"
+        }, 
+        {
+            "location": "/quickstart/index.html#edit-language-file", 
+            "text": "Language files contains hard-coded static text, images and other links, which can be edited and translated to any languages.  To edit the language file, go to admin page    Storefront Design     My Themes , click button  Advanced     Edit Theme Files  of the current theme:   From the left navigation, click to edit the language file (e.i  en.json ):", 
+            "title": "Edit language file"
+        }, 
+        {
+            "location": "/quickstart/index.html#edit-template-files", 
+            "text": "Edit template files is  not recommended , unless you have HTML, CSS and Sass programming skills.  You can edit the HTML files, SCSS files, images. However remember to  backup your changed files  as they are overwritten when you upgrade the theme.  To edit the template files, go to admin page    Storefront Design     My Themes , click button  Advanced     Edit Theme Files  of the current theme:    All HTML files are in directory  templates .  All Sass files are in directory  assets / scss .  Images are placed in directory  assets / img .", 
+            "title": "Edit template files"
+        }, 
+        {
+            "location": "/quickstart/index.html#activate-a-theme-style", 
+            "text": "To activate a theme style, open Theme Editor, find  Styles  section, click on the theme variation's thumbnail to activate corresponding style.   Theme includes 1 styles:", 
+            "title": "Activate a theme style"
+        }, 
+        {
+            "location": "/quickstart/index.html#default", 
+            "text": "", 
+            "title": "Default"
+        }, 
+        {
+            "location": "/customization/index.html", 
+            "text": "Customization\n\n\nThis page will explain all configuration available and how to edit each section appear on theme. Let's view the first homepage.\n\n\n\n\nTop Banner\n\n\n\n\nThe top banner can be showed / edited in admin page \n \nMarketing\n \n \nBanners\n. When you add / edit remember to choose \nLocation\n is \nTop of Page\n.\n\n\nColors Customization\n\n\nTo customize colors of this section, go to admin page \n \nStorefront Design\n \n \nMy Themes\n, click button \nCustomize\n of the current theme to open the Theme Editor. \n\n\n\n\nLook into the options showing below:\n\n\n\n\nHotLine in Top Banner\n\n\n\n\nYou can change the hotline text in this html file \n\n\n..\\templates\\components\\common\\header.html\n\n\n\n\nLinks in Top Banner\n\n\n\n\nYou can change the text links in this html file:\n\n\n..\\templates\\components\\common\\header-toplinks-right.html\n\n\n\n\nHeader\n\n\nHeader Styles\n\n\nThis theme support 3 different header styles:\n- Logo at left\n- Logo at right\n- Logo at center\n\n\n\n\n\n\n\n\nTo configure, open the \nTheme Editor\n, scroll down to section \nLogo\n, click to expand the logo options. Choose a certain option of \nLogo position\n, then click \nRefresh\n button appear after.\n\n\n\n\nColors Customization\n\n\nTo customize colors of the header section, look into the options showing below in the Theme Editor:\n\n\n\n\nMega Menu\n\n\n\n\nImages or labels appear on the mega menu can be edited in the language file \nen.json\n:\n\n\n\n\nFor example if the current menu \nShop By\n has category ID = \n23\n.\n\n\n\n\n\"show_cat_image_23\": \"yes\"\n: specify an image will show on this menu.\n\n\ncat_image_23\n: is the image URL.\n\n\n\n\nIf you want to show a label beside a menu items like above image, for example the menu item \nSeason\n has category ID = \n28\n:\n\n\n\n\n\"show_item_label_28\": \"yes\"\n: specify a label will show beside this menu item.\n\n\n\"item_label_28\"\n: is the label text.\n\n\n\n\nYou can add more for other items as you want.\n\n\nDropdown Mega Menu 1\n\n\n\n\nTo display this mega menu when hover a category menu item, edit the language file \nlang/en.json\n, in section \nemthemesmodez\n \n \nmegamenu\n, you will see \n\"menu_cat_0\": \"2\"\n.\n\n\n\n\nmenu_cat_0\n mean the first category item (start from 0).\n\n\n2\n is the identifier number of this dropdown menu.\n\n\n\n\nFor example if you want the third category item show this dropdown menu style, input \n\"menu_cat_2\": \"2\"\n.\n\n\nTo edit content inside this dropdown menu, you can edit template file \n/templates/components/common/navigation-list-mega2.html\n\n\nEdit banner images on this dropdown menu here:\n\n\n\n\nDropdown Mega Menu 2\n\n\n\n\nTo display this mega menu when hover a category menu item, edit the language file \nlang/en.json\n, in section \nemthemesmodez\n \n \nmegamenu\n, you will see \n\"menu_cat_1\": \"3\"\n.\n\n\n\n\nmenu_cat_1\n mean the second category item (start from 0).\n\n\n3\n is the identifier number of this dropdown menu.\n\n\nmega_page_X\n: mean the Xth page item (start from 0).\n\n\n\n\nFor example if you want the third category item show this dropdown menu style, input \n\"menu_cat_2\": \"3\"\n.\n\n\nTo edit content inside this dropdown menu, you can edit template file \n/templates/components/common/navigation-list-mega3.html\n\n\nEdit banner images on this dropdown menu here:\n\n\n\n\nDropdown Mega Menu 3\n\n\n\n\nTo display this mega menu when hover a category menu item, edit the language file \nlang/en.json\n, in section \nemthemesmodez\n \n \nmegamenu\n, you will see \n\"menu_cat_2\": \"4\"\n.\n\n\n\n\nmenu_cat_2\n mean the third category item (start from 0).\n\n\n4\n is the identifier number of this dropdown menu.\n\n\nmega_page_X\n: mean the Xth page item (start from 0).\n\n\n\n\nFor example if you want the third category item show this dropdown menu style, input \n\"menu_cat_2\": \"4\"\n.\n\n\nTo edit content inside this dropdown menu, you can edit template file \n/templates/components/common/navigation-list-mega4.html\n\n\nEdit banner images and static text on this dropdown menu here:\n\n\n\n\nDropdown Mega Menu 4\n\n\n\n\nTo display this mega menu when hover a category menu item, edit the language file \nlang/en.json\n, in section \nemthemesmodez\n \n \nmegamenu\n, you will see \n\"menu_cat_3\": \"5\"\n.\n\n\n\n\nmenu_cat_3\n mean the fourth category item (start from 0).\n\n\n5\n is the identifier number of this dropdown menu.\n\n\nmega_page_X\n: mean the Xth page item (start from 0).\n\n\n\n\nFor example if you want the third category item show this dropdown menu style, input \n\"menu_cat_2\": \"5\"\n.\n\n\nTo edit content inside this dropdown menu, you can edit template file \n/templates/components/common/navigation-list-mega5.html\n\n\nEdit banner images on this dropdown menu here:\n\n\n\n\nReplace the image URL \nhttps://tvlgiao.github.io/bigcommerce-themes/parallaxbag/demo/images/banner-menu-jewelry{{@index}}.jpg\n by your own but keep \n{{@index}}\n to be replaced by index numbers (start from \n0\n).\n\n\nDefault Dropdown Mega Menu\n\n\n\n\nTo display the default style mega menu when hover a category menu item, edit the language file \nlang/en.json\n, in section \nemthemesmodez\n \n \nmegamenu\n, you will see \n\"menu_cat_4\": \" \"\n.\n\n\n\n\nmenu_cat_4\n mean the fifth category item (start from 0). Leave a space character between the double quote to set default style dropdown menu.\n\n\nmega_page_X\n: mean the Xth page item (start from 0).\n\n\n\n\nFor example if you want the third category item show default style dropdown menu, input \n\"menu_cat_2\": \" \"\n.\n\n\nMain Slideshow / Carousel\n\n\nEdit the slideshow\n\n\nEdit the slideshow in admin page \n \nStorefront Design\n \n \nHome Page Carousel\n:\n\n\n\n\nChange position of text content\n\n\nThe theme supports showing slideshow content like heading, text, button on \nleft\n, \nright\n or \ncenter\n of the image. To configure this option, open Theme Editor, Look into section Carousel, click to expand:\n\n\n\n\nChoose position of each slide you want to change.\n\n\nColors Customization\n\n\nTo customize color of the slideshow's elements, look into section \nCarousel\n in the Theme Editor:\n\n\n\n\nHide the slideshow\n\n\nTo hide the slideshow on homepage, uncheck on the checkbox \nShow Carousel\n in section \nCarousel\n of the Theme Editor.\n\n\nHome - New Product Block\n\n\n\n\nYou can configure number of products and product display type in \nTheme Editor\n \n \nHomepage\n:\n\n\n\n\nHome - Text Block Slideshow\n\n\n\n\nTo change the text of the block, you edit in this html file :\n\n\n..\\templates\\components\\emthemes-modez\\sections\\section-policy.html\n\n\nTo change the banners:\n\n\nStep 1: You upload the banners in \nStorefront\n \n \nImage Manager\n  and copy its url.\n\n\n\n\nStep 2: Paste the image's url in this html file:\n\n\n..\\templates\\components\\emthemes-modez\\sections\\section-policy.html\n\n\n\n\nHome - Product Background Parallax\n\n\n\n\nTo change the background image:\n\n\nStep 1: You upload the background image in \nStorefront\n \n \nImage Manager\n \nand copy its url.\n\n\n\n\nStep 2: Paste the image's url in the language file \nlang/en.json\n, find key \nnewParallax\n \n \nbg_img\n:\n\n\n\n\nTo remove diamond effects:\n\n\nStep 1 : You find key \nillustration\n in this html file:\n\n\n..\\templates\\components\\products\\new.html\n\n\nStep 2 : Remove this below html and save the file to update.\n\n\n\n\nHome - Featured Product Categories List\n\n\n\n\nYou can change title of categories list in the language file \nlang/en.json\n, find key \nnewCategories\n \n \nheading\n:\n\n\n\n\nYou can configure number of products and product display type in \nTheme Editor\n \n \nHomepage\n:\n\n\n\n\nHome - Fifth Banners Block\n\n\n\n\nTo change the banners, \n\n\nStep 1: You upload the images in \nStorefront\n \n \nImage Manager\n and copy its url\n\n\n\n\nStep 2 : Paste the image's url in this html file:\n\n\n..\\templates\\components\\emthemes-modez\\sections\\section-fifth-banners.html\n\n\n\n\nImage Brands Carousel\n\n\n\n\nStep 1: You upload the images in \nStorefront\n \n \nImage Manager\n and copy its url\n\n\n\n\nStep 2 : Paste the image's url in this html file:\n\n\n..\\templates\\components\\emthemes-modez\\brand\\carousel.html\n\n\n\n\nInstagram Block\n\n\n\n\nEdit language file \nlang/en.json\n find key \ninstagram\n:\n\n\n\n\nFooter - Links\n\n\n\n\nEdit language file \nlang/en.json\n find key \nfooter\n \n \nlinks\n:\n\n\n\n\nFooter - Social Icons\n\n\n\n\nIn your admin page \n \nStorefront Design\n \n \nDesign Options\n \n \nSocial Media\n, enter your social links:\n\n\n\n\nFooter - Payment Icons\n\n\n\n\nTo show/hide payment icons, go to Theme \nEditor\n \n \nPayment Icons\n secitons, check or uncheck any icons you want to show or hide.\n\n\nCredit Links\n\n\n\n\nTo show/hide the credit links, go to Theme Editor \n \nFooter\n section, tick or untick the checkboxes as showing above.\n\n\nAssign different product layout to a specific product page\n\n\nTheme has 2 product layouts: \ndefault\n and \nFullwith with Lightbox\n.\n\n\nProduct layout fullwidth:\n\n\n\n\nTo assign a product layout, edit your product in the admin panel. In tab \nOrder Details\n, choose \nTemplate Layout File\n with the layout out want:\n\n\n\n\nAssign different category layout to a specific category page\n\n\nTheme has 2 category layout: \ndefault\n and \nFullwidth\n.\n\n\nCategory layout fullwidth:\n\n\n\n\nTo assign a category layout, edit your category in the admin panel. Choose \nTemplate Layout File\n with the layout out want:\n\n\n\n\nShow custom product labels\n\n\n\n\nTurn on displaying product labels in the \nTheme Editor\n \n \nProducts\n section, tick on the checkbox \nShow custom label using custom field 'card_label'\n and choose \nDisplay Product Sale Badges\n as \nTop Left\n.\n\n\n\n\n\n\nEdit your product in the admin panel to add custom label:\n\n\n\n\nAdd a custom label named \ncard_label\n and enter label text in the value input box.\n\n\nShow color swatches on product card:\n\n\n\n\nTo display color watches on product card, open \nTheme Editor\n \n \nProducts\n section, tick on the checkbox \nShow color swatches using custom field 'card_color'\n.\n\n\n\n\nEdit your product in the admin panel to add custom label:\n\n\n\n\nAdd a custom label named \ncard_color\n and enter color hex code in the value input box seperator by commas.\n\n\nShow Size guide / Color guide on product attributes\n\n\n\n\nTo display size guide, color guide for any similar link beside product attribute, edit product and add custom fields like below:\n\n\n\n\nCreate a web page for guide:\n\n\n\n\nShow Fullscreen popup banner\n\n\n\n\nTo show this fullscreen popup banner on homepage, Go to Marketing \n Banners \n Create a banner.\n\n\nIn Banner Content, click on button HTML button (Edit HTML source) and input content below:\n\n\ndiv id=\nemthemesModezBannersBlockFullscreenBanner\n class=\nemthemesModez-bannersContainer emthemesModez-bannersContainer--fullscreen tada animatecss\n data-emthemesmodez-fullscreen-modal=\n data-emthemesmodez-fullscreen-modal-delay=\n5000\n\n\ndiv class=\nemthemesModez-banner\n\n\ndiv class=\nemthemesModez-banner-figure\na href=\nhttps://store-fcn1lgnyqp.mybigcommerce.com/shoes/\nimg class=\nemthemesModez-banner-image\n title=\nFullscreen Banner\n src=\nhttps://tvlgiao.github.io/bigcommerce-themes/parallaxbag/demo/images/banner19.jpg\n alt=\nFullscreen Banner\n /\n/a\n\n\ndiv class=\nemthemesModez-banner-figcaption\n\n\ndiv class=\nemthemesModez-banner-figcaption-body\n\n\nh4 class=\nemthemesModez-banner-figcaption-title\nBag Store\n/h4\n\n\ndiv class=\nemthemesModez-banner-figcaption-text\nUP TO \nspan class=\nalt\n style=\ncolor: red;\n50%\n/span\n OFF\n/div\n\n\na class=\nbutton button--primary emthemesModez-banner-figcaption-button\n href=\nhttps://store-fcn1lgnyqp.mybigcommerce.com/shoes/\nShop Now\n/a\n/div\n\n\n/div\n\n\n/div\n\n\n/div\n\n\n/div\n\n\n\n\n\n\n\n\n\nChoose \nShow on Page\n = \nHome Page\n.\n\n\nChoose \nLocation\n = \nBottom of Page\n.\n\n\nTick on \nVisible\n = \nYes\n.\n\n\n\n\nBanner Sizes\n\n\nHomepage 1\n\n\n\n\nHomepage 2\n\n\n\n\nHomepage 3\n\n\n\n\nMix contents from other theme styles\n\n\nFor example, if you want to use theme \ndefault\n style as the main theme, but also want to display other content blocks from \nLaParis II\n style. You can edit the template files, rearrange, add more content blocks or delete unused content blocks.\n\n\nLet open folder \ntemplates\n \n \ncomponents\n \n \nemthemes-modez\n \n \nhome\n in the template files editor:\n\n\n\n\nThere is 2 files in this folder:\n\n\n\n\ndefault.html\n: is used for \ndefault\n style.\n\n\nlaparis2.html\n: is used for \nLaParis II\n style.\n\n\n\n\nLet's take a look at contents of 2 files:\n\n\ndefault.html\n\n\n{{\n components/emthemes-modez/sections/section section=\nbanner_laparis1_1\n}}\n{{\n components/emthemes-modez/sections/section section=\nnew_products\n}}\n{{\n components/emthemes-modez/sections/section section=\ncategories_featured\n}}\n{{\n components/emthemes-modez/sections/section section=\npopular_products\n}}\n{{\n components/emthemes-modez/sections/section section=\nblog_recent\n}}\n{{\n components/emthemes-modez/sections/section section=\nbrands_carousel\n}}\n{{\n components/emthemes-modez/sections/section section=\ninstagram_grid\n}}\n\n\n\n\nlaparis2.html\n\n\n{{\n components/emthemes-modez/sections/section section=\nproducts_by_category_1\n}}\n{{\n components/emthemes-modez/sections/section section=\nproducts_by_category_2\n}}\n{{\n components/emthemes-modez/sections/section section=\ncarousel_laparis2_1\n}}\n{{\n components/emthemes-modez/sections/section section=\nspecial_products_columns\n}}\n{{\n components/emthemes-modez/sections/section section=\nbrands_carousel\n}}\n{{\n components/emthemes-modez/sections/section section=\ninstagram_grid\n}}\n\n\n\n\nThe files are showing very clearly how content blocks are displayed. See values in parameter \nsection=\"...\"\n:\n\n\n\n\nbanner_laparis1_1\n: Is the first block content 3 banners in the homepage of default style.\n\n\nnew_products\n: Is a block contains new products.\n\n\ncategories_featured\n: Is a block contains featured products with categories list as appeared on the homepage of default style.\n\n\npopular_products\n: Is a block contains popular (or bestselling) products.\n\n\nblog_recent\n: Is a block contains recent blog posts.\n\n\nbrands_carousel\n: Is a brand images carousel.\n\n\ninstagram_grid\n: Is a block displaying instagram photos.\n\n\nproducts_by_category_1\n \n \nproducts_by_category_2\n: Is a block contains product in a certain category as showing on homepage of LaParis II style.\n\n\ncarousel_laparis2_1\n: Is the image carousel as showing on homepage of LaParis II style.\n\n\nspecial_products_columns\n: Is a block contains 3 columns showing new products, featured products and bestselling products as displayed on homepage of LaParis II style.\n\n\n\n\nSo just copy a line from the other file to the other. Arrange position of these sections as you wish.\n\n\nExample of a mixed \ndefault.html\n:\n\n\n{{\n components/emthemes-modez/sections/section section=\nnew_products\n}}\n{{\n components/emthemes-modez/sections/section section=\npopular_products\n}}\n{{\n components/emthemes-modez/sections/section section=\nbanner_laparis1_1\n}}\n{{\n components/emthemes-modez/sections/section section=\nproducts_by_category_1\n}}\n{{\n components/emthemes-modez/sections/section section=\nproducts_by_category_2\n}}\n{{\n components/emthemes-modez/sections/section section=\ninstagram_grid\n}}\n{{\n components/emthemes-modez/sections/section section=\nblog_recent\n}}\n{{\n components/emthemes-modez/sections/section section=\nbrands_carousel\n}}\n\n\n\n\nAdd our own CSS (Sass) code\n\n\nTo add your own custom CSS code you can edit the file \nassets/scss/_theme-custom.scss_\n in \nEdit Theme Files\n editor:\n\n\n\n\nNote: \n\n\n\n\nCopy / backup this file for future theme upgrade.\n\n\nAdd custom CSS code required CSS (or Sass) programming skill. It's not recommended for new users.", 
+            "title": "Customization"
+        }, 
+        {
+            "location": "/customization/index.html#customization", 
+            "text": "This page will explain all configuration available and how to edit each section appear on theme. Let's view the first homepage.", 
+            "title": "Customization"
+        }, 
+        {
+            "location": "/customization/index.html#top-banner", 
+            "text": "The top banner can be showed / edited in admin page    Marketing     Banners . When you add / edit remember to choose  Location  is  Top of Page .", 
+            "title": "Top Banner"
+        }, 
+        {
+            "location": "/customization/index.html#colors-customization", 
+            "text": "To customize colors of this section, go to admin page    Storefront Design     My Themes , click button  Customize  of the current theme to open the Theme Editor.    Look into the options showing below:", 
+            "title": "Colors Customization"
+        }, 
+        {
+            "location": "/customization/index.html#hotline-in-top-banner", 
+            "text": "You can change the hotline text in this html file   ..\\templates\\components\\common\\header.html", 
+            "title": "HotLine in Top Banner"
+        }, 
+        {
+            "location": "/customization/index.html#links-in-top-banner", 
+            "text": "You can change the text links in this html file:  ..\\templates\\components\\common\\header-toplinks-right.html", 
+            "title": "Links in Top Banner"
+        }, 
+        {
+            "location": "/customization/index.html#header", 
+            "text": "", 
+            "title": "Header"
+        }, 
+        {
+            "location": "/customization/index.html#header-styles", 
+            "text": "This theme support 3 different header styles:\n- Logo at left\n- Logo at right\n- Logo at center     To configure, open the  Theme Editor , scroll down to section  Logo , click to expand the logo options. Choose a certain option of  Logo position , then click  Refresh  button appear after.", 
+            "title": "Header Styles"
+        }, 
+        {
+            "location": "/customization/index.html#colors-customization_1", 
+            "text": "To customize colors of the header section, look into the options showing below in the Theme Editor:", 
+            "title": "Colors Customization"
+        }, 
+        {
+            "location": "/customization/index.html#mega-menu", 
+            "text": "Images or labels appear on the mega menu can be edited in the language file  en.json :   For example if the current menu  Shop By  has category ID =  23 .   \"show_cat_image_23\": \"yes\" : specify an image will show on this menu.  cat_image_23 : is the image URL.   If you want to show a label beside a menu items like above image, for example the menu item  Season  has category ID =  28 :   \"show_item_label_28\": \"yes\" : specify a label will show beside this menu item.  \"item_label_28\" : is the label text.   You can add more for other items as you want.", 
+            "title": "Mega Menu"
+        }, 
+        {
+            "location": "/customization/index.html#dropdown-mega-menu-1", 
+            "text": "To display this mega menu when hover a category menu item, edit the language file  lang/en.json , in section  emthemesmodez     megamenu , you will see  \"menu_cat_0\": \"2\" .   menu_cat_0  mean the first category item (start from 0).  2  is the identifier number of this dropdown menu.   For example if you want the third category item show this dropdown menu style, input  \"menu_cat_2\": \"2\" .  To edit content inside this dropdown menu, you can edit template file  /templates/components/common/navigation-list-mega2.html  Edit banner images on this dropdown menu here:", 
+            "title": "Dropdown Mega Menu 1"
+        }, 
+        {
+            "location": "/customization/index.html#dropdown-mega-menu-2", 
+            "text": "To display this mega menu when hover a category menu item, edit the language file  lang/en.json , in section  emthemesmodez     megamenu , you will see  \"menu_cat_1\": \"3\" .   menu_cat_1  mean the second category item (start from 0).  3  is the identifier number of this dropdown menu.  mega_page_X : mean the Xth page item (start from 0).   For example if you want the third category item show this dropdown menu style, input  \"menu_cat_2\": \"3\" .  To edit content inside this dropdown menu, you can edit template file  /templates/components/common/navigation-list-mega3.html  Edit banner images on this dropdown menu here:", 
+            "title": "Dropdown Mega Menu 2"
+        }, 
+        {
+            "location": "/customization/index.html#dropdown-mega-menu-3", 
+            "text": "To display this mega menu when hover a category menu item, edit the language file  lang/en.json , in section  emthemesmodez     megamenu , you will see  \"menu_cat_2\": \"4\" .   menu_cat_2  mean the third category item (start from 0).  4  is the identifier number of this dropdown menu.  mega_page_X : mean the Xth page item (start from 0).   For example if you want the third category item show this dropdown menu style, input  \"menu_cat_2\": \"4\" .  To edit content inside this dropdown menu, you can edit template file  /templates/components/common/navigation-list-mega4.html  Edit banner images and static text on this dropdown menu here:", 
+            "title": "Dropdown Mega Menu 3"
+        }, 
+        {
+            "location": "/customization/index.html#dropdown-mega-menu-4", 
+            "text": "To display this mega menu when hover a category menu item, edit the language file  lang/en.json , in section  emthemesmodez     megamenu , you will see  \"menu_cat_3\": \"5\" .   menu_cat_3  mean the fourth category item (start from 0).  5  is the identifier number of this dropdown menu.  mega_page_X : mean the Xth page item (start from 0).   For example if you want the third category item show this dropdown menu style, input  \"menu_cat_2\": \"5\" .  To edit content inside this dropdown menu, you can edit template file  /templates/components/common/navigation-list-mega5.html  Edit banner images on this dropdown menu here:   Replace the image URL  https://tvlgiao.github.io/bigcommerce-themes/parallaxbag/demo/images/banner-menu-jewelry{{@index}}.jpg  by your own but keep  {{@index}}  to be replaced by index numbers (start from  0 ).", 
+            "title": "Dropdown Mega Menu 4"
+        }, 
+        {
+            "location": "/customization/index.html#default-dropdown-mega-menu", 
+            "text": "To display the default style mega menu when hover a category menu item, edit the language file  lang/en.json , in section  emthemesmodez     megamenu , you will see  \"menu_cat_4\": \" \" .   menu_cat_4  mean the fifth category item (start from 0). Leave a space character between the double quote to set default style dropdown menu.  mega_page_X : mean the Xth page item (start from 0).   For example if you want the third category item show default style dropdown menu, input  \"menu_cat_2\": \" \" .", 
+            "title": "Default Dropdown Mega Menu"
+        }, 
+        {
+            "location": "/customization/index.html#main-slideshow-carousel", 
+            "text": "", 
+            "title": "Main Slideshow / Carousel"
+        }, 
+        {
+            "location": "/customization/index.html#edit-the-slideshow", 
+            "text": "Edit the slideshow in admin page    Storefront Design     Home Page Carousel :", 
+            "title": "Edit the slideshow"
+        }, 
+        {
+            "location": "/customization/index.html#change-position-of-text-content", 
+            "text": "The theme supports showing slideshow content like heading, text, button on  left ,  right  or  center  of the image. To configure this option, open Theme Editor, Look into section Carousel, click to expand:   Choose position of each slide you want to change.", 
+            "title": "Change position of text content"
+        }, 
+        {
+            "location": "/customization/index.html#colors-customization_2", 
+            "text": "To customize color of the slideshow's elements, look into section  Carousel  in the Theme Editor:", 
+            "title": "Colors Customization"
+        }, 
+        {
+            "location": "/customization/index.html#hide-the-slideshow", 
+            "text": "To hide the slideshow on homepage, uncheck on the checkbox  Show Carousel  in section  Carousel  of the Theme Editor.", 
+            "title": "Hide the slideshow"
+        }, 
+        {
+            "location": "/customization/index.html#home-new-product-block", 
+            "text": "You can configure number of products and product display type in  Theme Editor     Homepage :", 
+            "title": "Home - New Product Block"
+        }, 
+        {
+            "location": "/customization/index.html#home-text-block-slideshow", 
+            "text": "To change the text of the block, you edit in this html file :  ..\\templates\\components\\emthemes-modez\\sections\\section-policy.html  To change the banners:  Step 1: You upload the banners in  Storefront     Image Manager   and copy its url.   Step 2: Paste the image's url in this html file:  ..\\templates\\components\\emthemes-modez\\sections\\section-policy.html", 
+            "title": "Home - Text Block Slideshow"
+        }, 
+        {
+            "location": "/customization/index.html#home-product-background-parallax", 
+            "text": "To change the background image:  Step 1: You upload the background image in  Storefront     Image Manager  \nand copy its url.   Step 2: Paste the image's url in the language file  lang/en.json , find key  newParallax     bg_img :   To remove diamond effects:  Step 1 : You find key  illustration  in this html file:  ..\\templates\\components\\products\\new.html  Step 2 : Remove this below html and save the file to update.", 
+            "title": "Home - Product Background Parallax"
+        }, 
+        {
+            "location": "/customization/index.html#home-featured-product-categories-list", 
+            "text": "You can change title of categories list in the language file  lang/en.json , find key  newCategories     heading :   You can configure number of products and product display type in  Theme Editor     Homepage :", 
+            "title": "Home - Featured Product Categories List"
+        }, 
+        {
+            "location": "/customization/index.html#home-fifth-banners-block", 
+            "text": "To change the banners,   Step 1: You upload the images in  Storefront     Image Manager  and copy its url   Step 2 : Paste the image's url in this html file:  ..\\templates\\components\\emthemes-modez\\sections\\section-fifth-banners.html", 
+            "title": "Home - Fifth Banners Block"
+        }, 
+        {
+            "location": "/customization/index.html#image-brands-carousel", 
+            "text": "Step 1: You upload the images in  Storefront     Image Manager  and copy its url   Step 2 : Paste the image's url in this html file:  ..\\templates\\components\\emthemes-modez\\brand\\carousel.html", 
+            "title": "Image Brands Carousel"
+        }, 
+        {
+            "location": "/customization/index.html#instagram-block", 
+            "text": "Edit language file  lang/en.json  find key  instagram :", 
+            "title": "Instagram Block"
+        }, 
+        {
+            "location": "/customization/index.html#footer-links", 
+            "text": "Edit language file  lang/en.json  find key  footer     links :", 
+            "title": "Footer - Links"
+        }, 
+        {
+            "location": "/customization/index.html#footer-social-icons", 
+            "text": "In your admin page    Storefront Design     Design Options     Social Media , enter your social links:", 
+            "title": "Footer - Social Icons"
+        }, 
+        {
+            "location": "/customization/index.html#footer-payment-icons", 
+            "text": "To show/hide payment icons, go to Theme  Editor     Payment Icons  secitons, check or uncheck any icons you want to show or hide.", 
+            "title": "Footer - Payment Icons"
+        }, 
+        {
+            "location": "/customization/index.html#credit-links", 
+            "text": "To show/hide the credit links, go to Theme Editor    Footer  section, tick or untick the checkboxes as showing above.", 
+            "title": "Credit Links"
+        }, 
+        {
+            "location": "/customization/index.html#assign-different-product-layout-to-a-specific-product-page", 
+            "text": "Theme has 2 product layouts:  default  and  Fullwith with Lightbox .  Product layout fullwidth:   To assign a product layout, edit your product in the admin panel. In tab  Order Details , choose  Template Layout File  with the layout out want:", 
+            "title": "Assign different product layout to a specific product page"
+        }, 
+        {
+            "location": "/customization/index.html#assign-different-category-layout-to-a-specific-category-page", 
+            "text": "Theme has 2 category layout:  default  and  Fullwidth .  Category layout fullwidth:   To assign a category layout, edit your category in the admin panel. Choose  Template Layout File  with the layout out want:", 
+            "title": "Assign different category layout to a specific category page"
+        }, 
+        {
+            "location": "/customization/index.html#show-custom-product-labels", 
+            "text": "Turn on displaying product labels in the  Theme Editor     Products  section, tick on the checkbox  Show custom label using custom field 'card_label'  and choose  Display Product Sale Badges  as  Top Left .    Edit your product in the admin panel to add custom label:   Add a custom label named  card_label  and enter label text in the value input box.", 
+            "title": "Show custom product labels"
+        }, 
+        {
+            "location": "/customization/index.html#show-color-swatches-on-product-card", 
+            "text": "To display color watches on product card, open  Theme Editor     Products  section, tick on the checkbox  Show color swatches using custom field 'card_color' .   Edit your product in the admin panel to add custom label:   Add a custom label named  card_color  and enter color hex code in the value input box seperator by commas.", 
+            "title": "Show color swatches on product card:"
+        }, 
+        {
+            "location": "/customization/index.html#show-size-guide-color-guide-on-product-attributes", 
+            "text": "To display size guide, color guide for any similar link beside product attribute, edit product and add custom fields like below:   Create a web page for guide:", 
+            "title": "Show Size guide / Color guide on product attributes"
+        }, 
+        {
+            "location": "/customization/index.html#show-fullscreen-popup-banner", 
+            "text": "To show this fullscreen popup banner on homepage, Go to Marketing   Banners   Create a banner.  In Banner Content, click on button HTML button (Edit HTML source) and input content below:  div id= emthemesModezBannersBlockFullscreenBanner  class= emthemesModez-bannersContainer emthemesModez-bannersContainer--fullscreen tada animatecss  data-emthemesmodez-fullscreen-modal=  data-emthemesmodez-fullscreen-modal-delay= 5000  div class= emthemesModez-banner  div class= emthemesModez-banner-figure a href= https://store-fcn1lgnyqp.mybigcommerce.com/shoes/ img class= emthemesModez-banner-image  title= Fullscreen Banner  src= https://tvlgiao.github.io/bigcommerce-themes/parallaxbag/demo/images/banner19.jpg  alt= Fullscreen Banner  / /a  div class= emthemesModez-banner-figcaption  div class= emthemesModez-banner-figcaption-body  h4 class= emthemesModez-banner-figcaption-title Bag Store /h4  div class= emthemesModez-banner-figcaption-text UP TO  span class= alt  style= color: red; 50% /span  OFF /div  a class= button button--primary emthemesModez-banner-figcaption-button  href= https://store-fcn1lgnyqp.mybigcommerce.com/shoes/ Shop Now /a /div  /div  /div  /div  /div     Choose  Show on Page  =  Home Page .  Choose  Location  =  Bottom of Page .  Tick on  Visible  =  Yes .", 
+            "title": "Show Fullscreen popup banner"
+        }, 
+        {
+            "location": "/customization/index.html#banner-sizes", 
+            "text": "", 
+            "title": "Banner Sizes"
+        }, 
+        {
+            "location": "/customization/index.html#homepage-1", 
+            "text": "", 
+            "title": "Homepage 1"
+        }, 
+        {
+            "location": "/customization/index.html#homepage-2", 
+            "text": "", 
+            "title": "Homepage 2"
+        }, 
+        {
+            "location": "/customization/index.html#homepage-3", 
+            "text": "", 
+            "title": "Homepage 3"
+        }, 
+        {
+            "location": "/customization/index.html#mix-contents-from-other-theme-styles", 
+            "text": "For example, if you want to use theme  default  style as the main theme, but also want to display other content blocks from  LaParis II  style. You can edit the template files, rearrange, add more content blocks or delete unused content blocks.  Let open folder  templates     components     emthemes-modez     home  in the template files editor:   There is 2 files in this folder:   default.html : is used for  default  style.  laparis2.html : is used for  LaParis II  style.   Let's take a look at contents of 2 files:  default.html  {{  components/emthemes-modez/sections/section section= banner_laparis1_1 }}\n{{  components/emthemes-modez/sections/section section= new_products }}\n{{  components/emthemes-modez/sections/section section= categories_featured }}\n{{  components/emthemes-modez/sections/section section= popular_products }}\n{{  components/emthemes-modez/sections/section section= blog_recent }}\n{{  components/emthemes-modez/sections/section section= brands_carousel }}\n{{  components/emthemes-modez/sections/section section= instagram_grid }}  laparis2.html  {{  components/emthemes-modez/sections/section section= products_by_category_1 }}\n{{  components/emthemes-modez/sections/section section= products_by_category_2 }}\n{{  components/emthemes-modez/sections/section section= carousel_laparis2_1 }}\n{{  components/emthemes-modez/sections/section section= special_products_columns }}\n{{  components/emthemes-modez/sections/section section= brands_carousel }}\n{{  components/emthemes-modez/sections/section section= instagram_grid }}  The files are showing very clearly how content blocks are displayed. See values in parameter  section=\"...\" :   banner_laparis1_1 : Is the first block content 3 banners in the homepage of default style.  new_products : Is a block contains new products.  categories_featured : Is a block contains featured products with categories list as appeared on the homepage of default style.  popular_products : Is a block contains popular (or bestselling) products.  blog_recent : Is a block contains recent blog posts.  brands_carousel : Is a brand images carousel.  instagram_grid : Is a block displaying instagram photos.  products_by_category_1     products_by_category_2 : Is a block contains product in a certain category as showing on homepage of LaParis II style.  carousel_laparis2_1 : Is the image carousel as showing on homepage of LaParis II style.  special_products_columns : Is a block contains 3 columns showing new products, featured products and bestselling products as displayed on homepage of LaParis II style.   So just copy a line from the other file to the other. Arrange position of these sections as you wish.  Example of a mixed  default.html :  {{  components/emthemes-modez/sections/section section= new_products }}\n{{  components/emthemes-modez/sections/section section= popular_products }}\n{{  components/emthemes-modez/sections/section section= banner_laparis1_1 }}\n{{  components/emthemes-modez/sections/section section= products_by_category_1 }}\n{{  components/emthemes-modez/sections/section section= products_by_category_2 }}\n{{  components/emthemes-modez/sections/section section= instagram_grid }}\n{{  components/emthemes-modez/sections/section section= blog_recent }}\n{{  components/emthemes-modez/sections/section section= brands_carousel }}", 
+            "title": "Mix contents from other theme styles"
+        }, 
+        {
+            "location": "/customization/index.html#add-our-own-css-sass-code", 
+            "text": "To add your own custom CSS code you can edit the file  assets/scss/_theme-custom.scss_  in  Edit Theme Files  editor:   Note:    Copy / backup this file for future theme upgrade.  Add custom CSS code required CSS (or Sass) programming skill. It's not recommended for new users.", 
+            "title": "Add our own CSS (Sass) code"
+        }, 
+        {
+            "location": "/settings/index.html", 
+            "text": "Theme Settings\n\n\nTheme Settings or Theme Editor is a graphical user interface, lets you configure all features which the theme supports.\n\n\nTo open Theme Editor, go to your admin page \n \nStorefront Design\n \n \nMy Themes\n, on the Current Theme section, click \nCustomize\n button:\n\n\n\n\nStyles\n\n\nThis section shows all the theme's variations. You can change other style here.\n\n\n\n\nGlobal\n\n\nThis section lets you change colors of common elements, load indicator and overlays.\n\n\n\n\n\n\nTypography \n Icons\n\n\nThis section lets you change fonts, font sizes, colors of the logo, body text, headings, links, icons, ratings and other common elements.\n\n\n\n\n\n\n\n\n\n\nButtons\n\n\nThis section lets you change colors of buttons.\n\n\n\n\n\n\n\n\nForms\n\n\nThis section lets you change colors, borders, background of the form elements like labels, input boxes, select boxes, checkbox and radios.\n\n\n\n\n\n\nTop Banner\n\n\nThis section lets you change colors of the top banner and the bottom banner.\n\n\n\n\nHeader\n\n\n\n\nThis section let you configure colors of the elements showing on the page header.\n\n\nShow/Hide page links on the Main Menu.\n\n\n\n\n\n\nLogo\n\n\nThis section lets you configure logo position and size.\n\n\n\n\nCarousel\n\n\nThis configuration allow you:\n\n\n\n\nShow/hide the main slideshow on homepage.\n\n\nOn/off allowing image to stretch on large screens.\n\n\nChange colors of all carousel's elements.\n\n\nChange position of the main slideshow's description box to left, right or center.\n\n\n\n\n\n\nPayment Icons\n\n\nThis section lets you toggle payment icons to show/hide on the footer.\n\n\n\n\nSocial Media Icons\n\n\nThis section lets you configure position of the social icons on footer or header.\n\n\n\n\nProducts\n\n\nThis configuration section lets you:\n\n\n\n\nShow/Hide Quickview button.\n\n\nConfigure number of products, reviews, brands, search results showing.\n\n\nConfigure product image sizes\n\n\nConfigure Product swatch image sizes.\n\n\nConfigure position and colors of Product Badges.\n\n\nConfigure colors of elements of products grid items.\n\n\n\n\n\n\nBlog\n\n\nThis section lets you configure blog post image sizes.\n\n\n\n\nFooter\n\n\nThis configuration let you:\n\n\n\n\nShow/Hide \"Powered By...\" text at the footer.\n\n\nShow/Hide copyright text.\n\n\nChange colors of the footer background, newsletter section, copyright section.\n\n\nShow/Hide GeoTrust SSL seal and configure seal size.\n\n\n\n\n\n\nPurchase Options\n\n\n\n\nHomepage\n\n\nThis section let you configure the homepage:\n\n\n\n\nShow/hide any content blocks and product blocks.\n\n\nRearrange position of any blocks.\n\n\nConfigure display type of New, Featured, Popular Products blog.\n\n\nNumber of products to show on each block.", 
+            "title": "Theme Settings"
+        }, 
+        {
+            "location": "/settings/index.html#theme-settings", 
+            "text": "Theme Settings or Theme Editor is a graphical user interface, lets you configure all features which the theme supports.  To open Theme Editor, go to your admin page    Storefront Design     My Themes , on the Current Theme section, click  Customize  button:", 
+            "title": "Theme Settings"
+        }, 
+        {
+            "location": "/settings/index.html#styles", 
+            "text": "This section shows all the theme's variations. You can change other style here.", 
+            "title": "Styles"
+        }, 
+        {
+            "location": "/settings/index.html#global", 
+            "text": "This section lets you change colors of common elements, load indicator and overlays.", 
+            "title": "Global"
+        }, 
+        {
+            "location": "/settings/index.html#typography-icons", 
+            "text": "This section lets you change fonts, font sizes, colors of the logo, body text, headings, links, icons, ratings and other common elements.", 
+            "title": "Typography &amp; Icons"
+        }, 
+        {
+            "location": "/settings/index.html#buttons", 
+            "text": "This section lets you change colors of buttons.", 
+            "title": "Buttons"
+        }, 
+        {
+            "location": "/settings/index.html#forms", 
+            "text": "This section lets you change colors, borders, background of the form elements like labels, input boxes, select boxes, checkbox and radios.", 
+            "title": "Forms"
+        }, 
+        {
+            "location": "/settings/index.html#top-banner", 
+            "text": "This section lets you change colors of the top banner and the bottom banner.", 
+            "title": "Top Banner"
+        }, 
+        {
+            "location": "/settings/index.html#header", 
+            "text": "This section let you configure colors of the elements showing on the page header.  Show/Hide page links on the Main Menu.", 
+            "title": "Header"
+        }, 
+        {
+            "location": "/settings/index.html#logo", 
+            "text": "This section lets you configure logo position and size.", 
+            "title": "Logo"
+        }, 
+        {
+            "location": "/settings/index.html#carousel", 
+            "text": "This configuration allow you:   Show/hide the main slideshow on homepage.  On/off allowing image to stretch on large screens.  Change colors of all carousel's elements.  Change position of the main slideshow's description box to left, right or center.", 
+            "title": "Carousel"
+        }, 
+        {
+            "location": "/settings/index.html#payment-icons", 
+            "text": "This section lets you toggle payment icons to show/hide on the footer.", 
+            "title": "Payment Icons"
+        }, 
+        {
+            "location": "/settings/index.html#social-media-icons", 
+            "text": "This section lets you configure position of the social icons on footer or header.", 
+            "title": "Social Media Icons"
+        }, 
+        {
+            "location": "/settings/index.html#products", 
+            "text": "This configuration section lets you:   Show/Hide Quickview button.  Configure number of products, reviews, brands, search results showing.  Configure product image sizes  Configure Product swatch image sizes.  Configure position and colors of Product Badges.  Configure colors of elements of products grid items.", 
+            "title": "Products"
+        }, 
+        {
+            "location": "/settings/index.html#blog", 
+            "text": "This section lets you configure blog post image sizes.", 
+            "title": "Blog"
+        }, 
+        {
+            "location": "/settings/index.html#footer", 
+            "text": "This configuration let you:   Show/Hide \"Powered By...\" text at the footer.  Show/Hide copyright text.  Change colors of the footer background, newsletter section, copyright section.  Show/Hide GeoTrust SSL seal and configure seal size.", 
+            "title": "Footer"
+        }, 
+        {
+            "location": "/settings/index.html#purchase-options", 
+            "text": "", 
+            "title": "Purchase Options"
+        }, 
+        {
+            "location": "/settings/index.html#homepage", 
+            "text": "This section let you configure the homepage:   Show/hide any content blocks and product blocks.  Rearrange position of any blocks.  Configure display type of New, Featured, Popular Products blog.  Number of products to show on each block.", 
+            "title": "Homepage"
+        }, 
+        {
+            "location": "/faqs/index.html", 
+            "text": "FAQs\n\n\nHow to make slideshow stretched full width?\n\n\n \n\n\nOpen \nTheme Editor\n \n \nCarousel\n section \n check to the option \nAllows image to stretch on large screens\n:", 
+            "title": "FAQs"
+        }, 
+        {
+            "location": "/faqs/index.html#faqs", 
+            "text": "", 
+            "title": "FAQs"
+        }, 
+        {
+            "location": "/faqs/index.html#how-to-make-slideshow-stretched-full-width", 
+            "text": "Open  Theme Editor     Carousel  section   check to the option  Allows image to stretch on large screens :", 
+            "title": "How to make slideshow stretched full width?"
+        }, 
+        {
+            "location": "/support/index.html", 
+            "text": "Help \n Support\n\n\nIf you have any problem, don't hesistate to contact us via email \n.\n\n\nOur working hours: Monday to Friday 8AM - 5PM GMT+8.\n\n\nWhat do we support and do not support?\n\n\nWe Do Support:\n\n\n\n\nProvide detailed documentation to help you install and configure the theme successfully by yourself.\n\n\nAnswer your enquiries about theme configuration and use.\n\n\nAnswer you how to edit and translate the language files.\n\n\nFix bugs of our themes ONLY if the source code are not modified.\n\n\n\n\nWe Do Not Support:\n\n\n\n\nAnswer you how to use BigCommerce, manage, edit or configure any built-in BigCommerce features which are not related to our themes. Please contact \nBigCommerce Support\n for help.\n\n\nUpgrading the theme on your store if the source code was modified by any reasons.\n\n\nEditing the theme's source code for your own requirements which the theme's current version is not supported. Except editing language files.\n\n\n\n\nNote: \nWe have right to answer or not answer you how to edit the theme's source code.", 
+            "title": "Help & Support"
+        }, 
+        {
+            "location": "/support/index.html#help-support", 
+            "text": "If you have any problem, don't hesistate to contact us via email  .  Our working hours: Monday to Friday 8AM - 5PM GMT+8.", 
+            "title": "Help &amp; Support"
+        }, 
+        {
+            "location": "/support/index.html#what-do-we-support-and-do-not-support", 
+            "text": "", 
+            "title": "What do we support and do not support?"
+        }, 
+        {
+            "location": "/support/index.html#we-do-support", 
+            "text": "Provide detailed documentation to help you install and configure the theme successfully by yourself.  Answer your enquiries about theme configuration and use.  Answer you how to edit and translate the language files.  Fix bugs of our themes ONLY if the source code are not modified.", 
+            "title": "We Do Support:"
+        }, 
+        {
+            "location": "/support/index.html#we-do-not-support", 
+            "text": "Answer you how to use BigCommerce, manage, edit or configure any built-in BigCommerce features which are not related to our themes. Please contact  BigCommerce Support  for help.  Upgrading the theme on your store if the source code was modified by any reasons.  Editing the theme's source code for your own requirements which the theme's current version is not supported. Except editing language files.   Note:  We have right to answer or not answer you how to edit the theme's source code.", 
+            "title": "We Do Not Support:"
+        }
+    ]
+}
